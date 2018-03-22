@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Portal.Modules.OrientalSails.Domain.Activity, Portal.Modules.OrientalSails" table="os_Activity">
+		<id name="Id" type="Int32" unsaved-value="0">
+			<column name="Id" length="4" sql-type="int" not-null="true" unique="true" index="PK__os_Activity__72910220"/>
+			<generator class="native" />
+		</id>
+    <property name="Time" type="DateTime">
+      <column name="Time" length="8" sql-type="datetime" not-null="false"/>
+    </property>
+    <property name="Action" type="string">
+      <column name="Action" length="8" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Url" type="string">
+      <column name="Url" length="8" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Params" type="string">
+      <column name="Params" length="8" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Level" type="Portal.Modules.OrientalSails.Domain.ImportantLevel, Portal.Modules.OrientalSails">
+      <column name="Level" length="8" sql-type="int" not-null="false"/>
+    </property>
+    <property name="Note" type="string">
+      <column name="Note" length="8" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="ObjectId" type="Int32">
+      <column name="ObjectId" length="8" sql-type="int" not-null="false"/>
+    </property>
+    <property name="ObjectType" type="string">
+      <column name="ObjectType" length="8" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <many-to-one name="User" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore">
+      <column name="UserId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <property name="DateMeeting" type="datetime">
+      <column name="DateMeeting" length="8" sql-type="datetime" not-null="false"/>
+    </property>
+    <property name="UpdateTime" type="datetime">
+      <column name="UpdateTime" length="8" sql-type="datetime" not-null="false"/>
+    </property>
+  </class>
+</hibernate-mapping>

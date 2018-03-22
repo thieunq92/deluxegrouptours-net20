@@ -1,0 +1,2 @@
+2013-07-04 16:38:38,417 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_ExpenseService'.
+2013-07-04 16:38:38,522 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_ExpenseService'.

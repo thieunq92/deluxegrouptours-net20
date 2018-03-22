@@ -1,0 +1,10 @@
+2017-07-03 12:53:10,237 [8] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-07-03 12:53:10,260 [6] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-07-03 12:55:49,739 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)
+2017-07-03 16:22:46,044 [6] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-07-03 16:22:46,046 [7] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-07-03 17:26:48,349 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2017-07-03 17:26:48,532 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.

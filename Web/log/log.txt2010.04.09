@@ -1,0 +1,11 @@
+2010-04-09 08:30:24,453 [8] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1988/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1988/default.aspx
+2010-04-09 08:30:24,578 [4] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1988/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1988/default.aspx
+2010-04-09 08:30:57,656 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+NHibernate.ObjectNotFoundException: No row with the given identifier exists: 56, of class: Portal.Modules.OrientalSails.Domain.Booking
+   at NHibernate.Proxy.LazyInitializer.CheckTargetState()
+   at NHibernate.Proxy.LazyInitializer.Initialize()
+   at NHibernate.Proxy.LazyInitializer.GetImplementation()
+   at NHibernate.Proxy.CastleLazyInitializer.Intercept(IInvocation invocation, Object[] args)
+   at CProxyTypePortal_Modules_OrientalSails_DomainBookingDomain_NHibernate_ProxyINHibernateProxy1.get_Total()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)

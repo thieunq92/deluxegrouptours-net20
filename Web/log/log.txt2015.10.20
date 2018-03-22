@@ -1,0 +1,289 @@
+2015-10-20 09:28:13,426 [11] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2015-10-20 09:28:13,434 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?
+2015-10-20 14:53:33,628 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_BookingHistory'.
+2015-10-20 14:53:33,842 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_BookingHistory'.
+2015-10-20 14:53:33,842 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc ]
+Positional parameters:   0 null
+[SQL: SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc ]
+Positional parameters:   0 null
+[SQL: SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc] ---> System.Data.SqlClient.SqlException: Invalid object name 'os_BookingHistory'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\DataAccess\CommonDao.cs:line 153
+2015-10-20 14:56:53,037 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_BookingHistory'.
+2015-10-20 14:56:53,037 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_BookingHistory'.
+2015-10-20 14:56:53,037 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.ADOException: could not execute query
+[ SELECT distinct this_.BookingId as y0_ FROM os_BookingHistory this_ inner join os_Booking booking1_ on this_.BookingId=booking1_.Id WHERE ((not booking1_.StartDate = this_.StartDate or (this_.Status = ? and booking1_.Status = ?)) and not booking1_.Deleted = ?) and this_.StartDate = ? ]
+Positional parameters:   0 Cancelled
+  0 Cancelled
+  0 True
+  0 10/20/2015 12:00:00 AM
+[SQL: SELECT distinct this_.BookingId as y0_ FROM os_BookingHistory this_ inner join os_Booking booking1_ on this_.BookingId=booking1_.Id WHERE ((not booking1_.StartDate = this_.StartDate or (this_.Status = ? and booking1_.Status = ?)) and not booking1_.Deleted = ?) and this_.StartDate = ?] ---> System.Data.SqlClient.SqlException: Invalid object name 'os_BookingHistory'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find[T](CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at Portal.Modules.OrientalSails.DataAccess.SailsDao.GetBookingShadow(DateTime date)
+   at ISailsDaoProxy7edd98c4e72241ec8385316fa30bac63.InvocationGetBookingShadow_32.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Facilities.AutomaticTransactionManagement.TransactionInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at ISailsDaoProxy7edd98c4e72241ec8385316fa30bac63.GetBookingShadow(DateTime date)
+   at Portal.Modules.OrientalSails.SailsModule.GetBookingShadow(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2015-10-20 14:57:20,258 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:20,258 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:20,259 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc ]
+Positional parameters:   0 True
+[SQL: SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc ]
+Positional parameters:   0 True
+[SQL: SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc] ---> System.Data.SqlClient.SqlException: Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\DataAccess\CommonDao.cs:line 153
+2015-10-20 14:57:20,298 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:20,299 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:20,300 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+NHibernate.ADOException: could not load an entity: [Portal.Modules.OrientalSails.Domain.AgencyContact#943][SQL: SELECT agencycont0_.Id as Id97_0_, agencycont0_.Name as Name97_0_, agencycont0_.Position as Position97_0_, agencycont0_.Phone as Phone97_0_, agencycont0_.Email as Email97_0_, agencycont0_.Enabled as Enabled97_0_, agencycont0_.AgencyId as AgencyId97_0_, agencycont0_.IsBooker as IsBooker97_0_, agencycont0_.Birthday as Birthday97_0_ FROM os_AgencyContact agencycont0_ WHERE agencycont0_.Id=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.DoLoad(Type theClass, Object id, Object optionalObject, LockMode lockMode, Boolean checkDeleted)
+   at NHibernate.Impl.SessionImpl.ImmediateLoad(Type clazz, Object id)
+   at NHibernate.Proxy.LazyInitializer.Initialize()
+   at NHibernate.Proxy.LazyInitializer.GetImplementation()
+   at NHibernate.Proxy.CastleLazyInitializer.Intercept(IInvocation invocation, Object[] args)
+   at CProxyTypePortal_Modules_OrientalSails_DomainAgencyContactDomain_NHibernate_ProxyINHibernateProxy1.get_Phone()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)
+2015-10-20 14:57:36,014 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2015-10-20 14:57:39,118 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_BookingHistory'.
+2015-10-20 14:57:39,118 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_BookingHistory'.
+2015-10-20 14:57:39,118 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.Booking
+[SQL: SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.Booking
+[SQL: SELECT this_.Id as Id77_0_, this_.Date as Date77_0_, this_.StartDate as StartDate77_0_, this_.BookingId as BookingId77_0_, this_.UserId as UserId77_0_, this_.TripId as TripId77_0_, this_.AgencyId as AgencyId77_0_, this_.Status as Status77_0_, this_.Total as Total77_0_, this_.TotalCurrency as TotalCu10_77_0_ FROM os_BookingHistory this_ WHERE this_.BookingId = ? ORDER BY this_.Date asc] ---> System.Data.SqlClient.SqlException: Invalid object name 'os_BookingHistory'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\DataAccess\CommonDao.cs:line 153
+2015-10-20 14:57:44,092 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:44,092 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:44,092 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc ]
+Positional parameters:   0 True
+[SQL: SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc ]
+Positional parameters:   0 True
+[SQL: SELECT this_.Id as Id97_0_, this_.Name as Name97_0_, this_.Position as Position97_0_, this_.Phone as Phone97_0_, this_.Email as Email97_0_, this_.Enabled as Enabled97_0_, this_.AgencyId as AgencyId97_0_, this_.IsBooker as IsBooker97_0_, this_.Birthday as Birthday97_0_ FROM os_AgencyContact this_ WHERE this_.Enabled = ? ORDER BY this_.Name asc] ---> System.Data.SqlClient.SqlException: Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\DataAccess\CommonDao.cs:line 153
+2015-10-20 14:57:44,117 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:44,117 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+2015-10-20 14:57:44,117 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+NHibernate.ADOException: could not load an entity: [Portal.Modules.OrientalSails.Domain.AgencyContact#943][SQL: SELECT agencycont0_.Id as Id97_0_, agencycont0_.Name as Name97_0_, agencycont0_.Position as Position97_0_, agencycont0_.Phone as Phone97_0_, agencycont0_.Email as Email97_0_, agencycont0_.Enabled as Enabled97_0_, agencycont0_.AgencyId as AgencyId97_0_, agencycont0_.IsBooker as IsBooker97_0_, agencycont0_.Birthday as Birthday97_0_ FROM os_AgencyContact agencycont0_ WHERE agencycont0_.Id=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'Position'.
+Invalid column name 'IsBooker'.
+Invalid column name 'Birthday'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.DoLoad(Type theClass, Object id, Object optionalObject, LockMode lockMode, Boolean checkDeleted)
+   at NHibernate.Impl.SessionImpl.ImmediateLoad(Type clazz, Object id)
+   at NHibernate.Proxy.LazyInitializer.Initialize()
+   at NHibernate.Proxy.LazyInitializer.GetImplementation()
+   at NHibernate.Proxy.CastleLazyInitializer.Intercept(IInvocation invocation, Object[] args)
+   at CProxyTypePortal_Modules_OrientalSails_DomainAgencyContactDomain_NHibernate_ProxyINHibernateProxy1.get_Phone()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)

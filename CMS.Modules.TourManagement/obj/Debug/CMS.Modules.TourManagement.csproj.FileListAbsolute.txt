@@ -1,0 +1,167 @@
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Web\Albums.ascx
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Web\Albums.ascx.cs
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.pdb
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\AjaxControlToolkit.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Core.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Services.Transaction.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Windsor.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Core.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.ServerControls.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\FredCK.FCKeditorV2.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\log4net.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\NHibernate.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\System.Web.Extensions.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Castle.MicroKernel.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Lucene.Net.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Newtonsoft.Json.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\itextsharp.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\System.Web.Extensions.Design.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Castle.DynamicProxy2.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Iesi.Collections.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\Castle.DynamicProxy.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Core.pdb
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.pdb
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.ServerControls.pdb
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.pdb
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.pdb
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.xml
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\it\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\nl\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\sv\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\bin\nl\CMS.Modules.Gallery.resources.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Admin.Resources.resources
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Resources.Strings.resources
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\obj\Debug\ResGen.read.1.tlog
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\obj\Debug\ResGen.write.1.tlog
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.dll
+D:\Working\Source\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Web\Albums.ascx
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Web\Albums.ascx.cs
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\log4net.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\NHibernate.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\itextsharp.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\bin\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\ATMBooking\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Web\Albums.ascx
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Web\Albums.ascx.cs
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\log4net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\NHibernate.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\itextsharp.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\bin\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Web\Albums.ascx
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Web\Albums.ascx.cs
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\obj\Debug\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.TourManagement\bin\sv\CMS.Web.resources.dll

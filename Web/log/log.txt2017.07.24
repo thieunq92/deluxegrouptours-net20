@@ -1,0 +1,57 @@
+2017-07-24 00:32:56,373 [14] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-07-24 00:32:56,457 [11] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-07-24 03:19:47,048 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'IsDriverCollectVND'.
+Invalid column name 'DriverCollect'.
+Invalid column name 'DriverCollectVND'.
+Invalid column name 'DriverCollected'.
+Invalid column name 'DriverCollectedUSD'.
+Invalid column name 'DriverCollectedVND'.
+2017-07-24 03:19:47,395 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'IsDriverCollectVND'.
+Invalid column name 'DriverCollect'.
+Invalid column name 'DriverCollectVND'.
+Invalid column name 'DriverCollected'.
+Invalid column name 'DriverCollectedUSD'.
+Invalid column name 'DriverCollectedVND'.
+2017-07-24 03:19:47,395 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+NHibernate.ADOException: could not load an entity: [Portal.Modules.OrientalSails.Domain.Booking#37016][SQL: SELECT booking0_.Id as Id103_0_, booking0_.Deleted as Deleted103_0_, booking0_.IsApproved as IsApproved103_0_, booking0_.GroupNo as GroupNo103_0_, booking0_.CreatedBy as CreatedBy103_0_, booking0_.CreatedDate as CreatedD6_103_0_, booking0_.ModifiedBy as ModifiedBy103_0_, booking0_.ModifiedDate as Modified8_103_0_, booking0_.ConfirmedBy as Confirme9_103_0_, booking0_.PartnerId as PartnerId103_0_, booking0_.SaleId as SaleId103_0_, booking0_.StartDate as StartDate103_0_, booking0_.EndDate as EndDate103_0_, booking0_.CustomBookingId as CustomB14_103_0_, booking0_.Amended as Amended103_0_, booking0_.Status as Status103_0_, booking0_.AccountingStatus as Account17_103_0_, booking0_.AgencyCode as AgencyCode103_0_, booking0_.TripOption as TripOption103_0_, booking0_.Total as Total103_0_, booking0_.TotalVND as TotalVND103_0_, booking0_.IsVND as IsVND103_0_, booking0_.IsGuideCollectVND as IsGuide23_103_0_, booking0_.IsDriverCollectVND as IsDrive24_103_0_, booking0_.IsCommissionVND as IsCommi25_103_0_, booking0_.IsCancelPayVND as IsCance26_103_0_, booking0_.Commission as Commission103_0_, booking0_.CommissionVND as Commiss28_103_0_, booking0_.ComUSDpayed as ComUSDp29_103_0_, booking0_.ComVNDPayed as ComVNDP30_103_0_, booking0_.ComRate as ComRate103_0_, booking0_.GuideCollect as GuideCo32_103_0_, booking0_.DriverCollect as DriverC33_103_0_, booking0_.GuideCollectVND as GuideCo34_103_0_, booking0_.DriverCollectVND as DriverC35_103_0_, booking0_.GuideCollected as GuideCo36_103_0_, booking0_.DriverCollected as DriverC37_103_0_, booking0_.GuideCollectedUSD as GuideCo38_103_0_, booking0_.DriverCollectedUSD as DriverC39_103_0_, booking0_.GuideCollectedVND as GuideCo40_103_0_, booking0_.DriverCollectedVND as DriverC41_103_0_, booking0_.GuideConfirmed as GuideCo42_103_0_, booking0_.AgencyConfirmed as AgencyC43_103_0_, booking0_.ComPaid as ComPaid103_0_, booking0_.TransferCost as Transfe45_103_0_, booking0_.IsTransferred as IsTrans46_103_0_, booking0_.Paid as Paid103_0_, booking0_.Note as Note103_0_, booking0_.PickupAddress as PickupA49_103_0_, booking0_.SpecialRequest as Special50_103_0_, booking0_.BookerId as BookerId103_0_, booking0_.CurrencyRate as Currenc52_103_0_, booking0_.PaidBase as PaidBase103_0_, booking0_.IsPaid as IsPaid103_0_, booking0_.IsPaymentNeeded as IsPayme55_103_0_, booking0_.IsCharter as IsCharter103_0_, booking0_.TransferAdult as Transfe57_103_0_, booking0_.TransferChildren as Transfe58_103_0_, booking0_.TransferBaby as Transfe59_103_0_, booking0_.Invoice as Invoice103_0_, booking0_.CancelPay as CancelPay103_0_, booking0_.CancelPayVND as CancelP62_103_0_, booking0_.GuideOnboard as GuideOn63_103_0_, booking0_.Guide as Guide103_0_, booking0_.Driver as Driver103_0_, booking0_.PaidDate as PaidDate103_0_, booking0_.ComPaidDate as ComPaid67_103_0_, booking0_.LockDate as LockDate103_0_, booking0_.PickupTime as PickupTime103_0_, booking0_.SeeoffTime as SeeoffTime103_0_, booking0_.PUFlightDetails as PUFligh71_103_0_, booking0_.PUCarRequirements as PUCarRe72_103_0_, booking0_.SOFlightDetails as SOFligh73_103_0_, booking0_.SOCarRequirements as SOCarRe74_103_0_, booking0_.PUPickupAddress as PUPicku75_103_0_, booking0_.PUDropoffAddress as PUDropo76_103_0_, booking0_.SOPickupAddress as SOPicku77_103_0_, booking0_.SODropoffAddress as SODropo78_103_0_, booking0_.LockBy as LockBy103_0_, booking0_.TripId as TripId103_0_, booking0_.CruiseId as CruiseId103_0_, booking0_.AgencyId as AgencyId103_0_, booking0_.TransferTo as TransferTo103_0_, booking0_.LockedId as LockedId103_0_, booking0_.Id as formula1_0_, booking0_.CustomBookingId as formula2_0_, CASE WHEN (booking0_.CurrencyRate > 0 ) THEN (booking0_.GuideCollect - booking0_.GuideCollectedVND/booking0_.CurrencyRate - booking0_.GuideCollectedUSD) ELSE booking0_.GuideCollect END as formula3_0_, CASE WHEN (booking0_.CurrencyRate > 0 ) THEN (booking0_.Total - booking0_.GuideCollect - booking0_.PaidBase/booking0_.CurrencyRate - booking0_.Paid) ELSE booking0_.Total - booking0_.GuideCollect - booking0_.Paid END as formula4_0_ FROM os_Booking booking0_ WHERE booking0_.Id=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'IsDriverCollectVND'.
+Invalid column name 'DriverCollect'.
+Invalid column name 'DriverCollectVND'.
+Invalid column name 'DriverCollected'.
+Invalid column name 'DriverCollectedUSD'.
+Invalid column name 'DriverCollectedVND'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.DoLoad(Type theClass, Object id, Object optionalObject, LockMode lockMode, Boolean checkDeleted)
+   at NHibernate.Impl.SessionImpl.DoLoadByClass(Type clazz, Object id, Boolean checkDeleted, Boolean allowProxyCreation)
+   at NHibernate.Impl.SessionImpl.Get(Type clazz, Object id)
+   at Castle.Facilities.NHibernateIntegration.SessionDelegate.Get(Type clazz, Object id)
+   at CMS.Core.DataAccess.CommonDao.GetObjectById(Type type, Int32 id, Boolean allowNull) in C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\DataAccess\CommonDao.cs:line 47
+   at ICommonDaoProxy22386a42fa314cf8a9d7c4dbadb223cf.InvocationGetObjectById_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Facilities.AutomaticTransactionManagement.TransactionInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at ICommonDaoProxy22386a42fa314cf8a9d7c4dbadb223cf.GetObjectById(Type type, Int32 id, Boolean allowNull)
+   at Portal.Modules.OrientalSails.SailsModule.BookingGetById(Int32 id)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)

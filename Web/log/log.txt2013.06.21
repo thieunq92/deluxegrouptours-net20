@@ -1,0 +1,41 @@
+2013-06-21 16:35:55,180 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.GuideCollects [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.QueryException: Type mismatch in NHibernate.Expression.GtExpression: GuideCollect expected type System.Double, actual type System.Int32
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at Portal.Modules.OrientalSails.DataAccess.SailsDao.BookingCount(ICriterion criterion, String customer, Int32 blocked)
+   at ISailsDaoProxyf6370e6040bf44d5a0750705b05b0341.InvocationBookingCount_13.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Facilities.AutomaticTransactionManagement.TransactionInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at ISailsDaoProxyf6370e6040bf44d5a0750705b05b0341.BookingCount(ICriterion criterion, String customer, Int32 blocked)
+   at Portal.Modules.OrientalSails.SailsModule.BookingGetByCriterion(ICriterion criterion, Order order, Int32& count, Int32 pageSize, Int32 pageIndex, Boolean tripped, User user)
+   at Portal.Modules.OrientalSails.Web.Admin.GuideCollects.GetData(Int32& count)
+   at Portal.Modules.OrientalSails.Web.Admin.GuideCollects.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.GuideCollects.Page_Load(Object sender, EventArgs e)
+2013-06-21 17:49:53,405 [5] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Transaction.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Transaction.hbm.xml ---> NHibernate.DuplicateMappingException: Duplicate collection role mapping Portal.Modules.OrientalSails.Domain.Cruise.Trips
+   at NHibernate.Cfg.Mappings.AddCollection(Collection collection)
+   at NHibernate.Cfg.HbmBinder.PropertiesFromXML(XmlNode node, PersistentClass model, Mappings mappings)
+   at NHibernate.Cfg.HbmBinder.BindRootClass(XmlNode node, RootClass model, Mappings mappings)
+   at NHibernate.Cfg.HbmBinder.BindRoot(XmlDocument doc, Mappings mappings)
+   at NHibernate.Cfg.Configuration.AddValidatedDocument(XmlDocument doc, String name)
+   --- End of inner exception stack trace ---
+2013-06-21 17:50:25,702 [9] ERROR NHibernate.Util.ReflectHelper [(null)] <(null)> - Could not load type bool.
+System.TypeLoadException: Could not load type bool. Possible cause: no assembly name specified.
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+2013-06-21 17:50:25,719 [9] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Transaction.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Transaction.hbm.xml ---> NHibernate.MappingException: could not interpret type: bool
+   at NHibernate.Cfg.HbmBinder.GetTypeFromXML(XmlNode node)
+   at NHibernate.Cfg.HbmBinder.BindSimpleValue(XmlNode node, SimpleValue model, Boolean isNullable, String path, Mappings mappings)
+   at NHibernate.Cfg.HbmBinder.PropertiesFromXML(XmlNode node, PersistentClass model, Mappings mappings)
+   at NHibernate.Cfg.HbmBinder.BindRootClass(XmlNode node, RootClass model, Mappings mappings)
+   at NHibernate.Cfg.HbmBinder.BindRoot(XmlDocument doc, Mappings mappings)
+   at NHibernate.Cfg.Configuration.AddValidatedDocument(XmlDocument doc, String name)
+   --- End of inner exception stack trace ---

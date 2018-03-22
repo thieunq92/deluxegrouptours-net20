@@ -1,0 +1,33 @@
+2013-08-13 17:00:01,509 [5] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - Type mismatch in NHibernate.Expression.GtExpression: GuideCollectedRemain expected type System.Double, actual type System.Int32
+NHibernate.QueryException: Type mismatch in NHibernate.Expression.GtExpression: GuideCollectedRemain expected type System.Double, actual type System.Int32
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterionPaged(Type objectType, ICriterion criterion, Int32 pageIndex, Int32 pageSize, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 193
+2013-08-13 17:00:12,060 [11] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - Type mismatch in NHibernate.Expression.GtExpression: GuideCollectedRemain expected type System.Double, actual type System.Int32
+NHibernate.QueryException: Type mismatch in NHibernate.Expression.GtExpression: GuideCollectedRemain expected type System.Double, actual type System.Int32
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterionPaged(Type objectType, ICriterion criterion, Int32 pageIndex, Int32 pageSize, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 193
+2013-08-13 17:01:39,881 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - Type mismatch in NHibernate.Expression.GtExpression: GuideCollectedRemain expected type System.Double, actual type System.Int32
+NHibernate.QueryException: Type mismatch in NHibernate.Expression.GtExpression: GuideCollectedRemain expected type System.Double, actual type System.Int32
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterionPaged(Type objectType, ICriterion criterion, Int32 pageIndex, Int32 pageSize, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 193

@@ -1,0 +1,224 @@
+2010-03-30 11:55:47,609 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 11:55:51,312 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 11:55:59,046 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 11:56:04,406 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 11:57:21,734 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 11:57:23,531 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 11:59:32,531 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 13:42:02,312 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, CruiseExpenseTable cruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2010-03-30 16:53:50,093 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:53:50,140 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:53:50,140 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'RoomPlan'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\CMS\OrientalSails\Core\DataAccess\CommonDao.cs:line 149
+2010-03-30 16:54:44,203 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:54:44,203 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:54:44,203 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'RoomPlan'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\CMS\OrientalSails\Core\DataAccess\CommonDao.cs:line 149
+2010-03-30 16:54:58,250 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:54:58,250 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:54:58,250 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'RoomPlan'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\CMS\OrientalSails\Core\DataAccess\CommonDao.cs:line 149
+2010-03-30 16:55:34,343 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:55:34,343 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'RoomPlan'.
+2010-03-30 16:55:34,359 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ? ]
+Positional parameters:   0 False
+[SQL: SELECT this_.Id as Id63_0_, this_.Deleted as Deleted63_0_, this_.CreatedBy as CreatedBy63_0_, this_.CreatedDate as CreatedD4_63_0_, this_.ModifiedBy as ModifiedBy63_0_, this_.ModifiedDate as Modified6_63_0_, this_.Name as Name63_0_, this_.Description as Descript8_63_0_, this_.Image as Image63_0_, this_.RoomPlan as RoomPlan63_0_, this_.CodeName as CodeName63_0_ FROM os_Cruise this_ WHERE this_.Deleted = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'RoomPlan'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\CMS\OrientalSails\Core\DataAccess\CommonDao.cs:line 149

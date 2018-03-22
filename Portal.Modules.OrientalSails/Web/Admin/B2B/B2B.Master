@@ -1,0 +1,2073 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="B2B.master.cs" Inherits="Portal.Modules.OrientalSails.Web.Admin.B2B.B2B" %>
+
+<!DOCTYPE html>
+
+<html prefix="og: http://ogp.me/ns#" class="csstransforms csstransforms3d csstransitions" lang="en-US">
+<!--<![endif]-->
+<head>
+    <link rel="alternate" href="http://www.deluxegrouptours.vn" hreflang="en">
+    <link rel="alternate" href="http://www.deluxegrouptours.vn" hreflang="x-default">
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="oBhJ9dshOIholJ1ZUE-N_CqcsXJST-vQniDzNW6j9vM">
+    <meta name="msvalidate.01" content="E64F6907582B26C5EA161557F13574DA">
+    <meta name="msvalidate.01" content="E64F6907582B26C5EA161557F13574DA">
+    <meta name="Robots" content="index, follow">
+    <meta name="googlebot" content="all, index, follow">
+    <meta name="language" content="English">
+    <link rel="author" href="https://plus.google.com/u/0/+ChiBuiVan-asianatravelmate">
+    <meta property="article:author" content="https://www.facebook.com/VietnamDeluxeGroupTour">
+    <!--smof-->
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta responsive-->
+    <!--[if lt IE 9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+    <![endif]-->
+
+    <!--FAVICONS-->
+    <link rel="icon" href="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/img/favicon/favicon.ico">
+    <!--END FAVICONS-->
+
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.vi.08imGdxCQmU.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOC0DPJk62a4iDXNlNlolZEOR_TIQ/cb=gapi.loaded_0" async=""></script>
+    <script async="" charset="utf-8" src="//v2.zopim.com/?2veIAQ3nXkUjZ6lrtmuMs1WfKOV0AS9r" type="text/javascript"></script>
+    <script id="facebook-jssdk" src="//connect.facebook.net/vi_VN/sdk.js#xfbml=1&amp;version=v2.8&amp;appId=734669833249851"></script>
+    <script type="text/javascript">
+        var bhittani_plugin_kksr_js = {"nonce":"62916fd8b5","grs":false,"ajaxurl":"http:\/\/www.deluxegrouptours.vn\/wp-admin\/admin-ajax.php","func":"kksr_ajax","msg":"Rate this post","fuelspeed":400,"thankyou":"Thank you for your vote","error_msg":"An error occurred","tooltip":"1","tooltips":[{"tip":"","color":"#ffffff"},{"tip":"","color":"#ffffff"},{"tip":"","color":"#ffffff"},{"tip":"","color":"#ffffff"},{"tip":"","color":"#ffffff"}]};
+				</script>
+
+    <!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Vietnam Group Tours - Vietnam deluxe tour with small group</title>
+    <meta name="description" content="Vietnam Deluxe Group Tours - Daily group tour in Vietnam. Deluxe Group Tour offers Vietnam Group Tours and Vietnam Day Tours with small group under 10 pax.">
+    <meta name="keywords" content="Vietnam Group Tours, Vietnam Group Tour, Vietnam day Tours, vietnam day tours">
+    <link rel="canonical" href="http://www.deluxegrouptours.vn/">
+    <link rel="publisher" href="https://plus.google.com/u/0/+ChiBuiVan-asianatravelmate/posts">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vietnam Group Tours - Vietnam deluxe tour with small group">
+    <meta property="og:description" content="Vietnam Deluxe Group Tours - Daily group tour in Vietnam. Deluxe Group Tour offers Vietnam Group Tours and Vietnam Day Tours with small group under 10 pax.">
+    <meta property="og:url" content="http://www.deluxegrouptours.vn/">
+    <meta property="og:site_name" content="Vietnam Group Tour - Vietnam Group Tours - Vietnam Deluxe Group Tours">
+    <meta property="article:publisher" content="https://www.facebook.com/VietnamDeluxeGroupTour">
+    <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://www.deluxegrouptours.vn/", "potentialAction": { "@type": "SearchAction", "target": "http://www.deluxegrouptours.vn/?s={search_term}", "query-input": "required name=search_term" } }</script>
+    <!-- / Yoast WordPress SEO plugin. -->
+
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="dns-prefetch" href="//apis.google.com">
+    <link rel="dns-prefetch" href="//platform.linkedin.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="alternate" type="application/rss+xml" title="Vietnam Group Tour - Vietnam Group Tours - Vietnam Deluxe Group Tours » Feed" href="http://www.deluxegrouptours.vn/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Vietnam Group Tour - Vietnam Group Tours - Vietnam Deluxe Group Tours » Comments Feed" href="http://www.deluxegrouptours.vn/comments/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Vietnam Group Tour - Vietnam Group Tours - Vietnam Deluxe Group Tours » Home Comments Feed" href="http://www.deluxegrouptours.vn/home/feed/">
+    <script type="text/javascript">
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.deluxegrouptours.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+        !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length&lt;3e3)&amp;&amp;(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&amp;&amp;j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h&lt;i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&amp;&amp;c.supports[i[h]],"flag"!==i[h]&amp;&amp;(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&amp;&amp;c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&amp;&amp;f.twemoji&amp;&amp;(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+    <script src="http://www.deluxegrouptours.vn/wp-includes/js/wp-emoji-release.min.js?ver=4.7.2" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="tfg_style-css" href="http://www.deluxegrouptours.vn/wp-content/plugins/twitter-facebook-google-plusone-share/tfg_style.css?ver=4.7.2" type="text/css" media="all">
+    <link rel="stylesheet" id="popup-maker-site-css" href="http://www.deluxegrouptours.vn/wp-content/plugins/popup-maker/assets/css/site.min.css?ver=1.4.20" type="text/css" media="all">
+    <link rel="stylesheet" id="bhittani_plugin_kksr-css" href="http://www.deluxegrouptours.vn/wp-content/plugins/kk-star-ratings/css.css?ver=2.5.1" type="text/css" media="all">
+    <link rel="stylesheet" id="rs-plugin-settings-css" href="http://www.deluxegrouptours.vn/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.3.8&amp;ver=4.7.2" type="text/css" media="all">
+    <style id="rs-plugin-settings-inline-css" type="text/css">
+        .tp-caption a {
+            color: #ff7302;
+            text-shadow: none;
+            -webkit-transition: all 0.2s ease-out;
+            -moz-transition: all 0.2s ease-out;
+            -o-transition: all 0.2s ease-out;
+            -ms-transition: all 0.2s ease-out;
+        }
+
+            .tp-caption a:hover {
+                color: #ffa902;
+            }
+    </style>
+    <link rel="stylesheet" id="rs-plugin-captions-css" href="http://www.deluxegrouptours.vn/wp-content/plugins/revslider/rs-plugin/css/captions.php?rev=4.3.8&amp;ver=4.7.2" type="text/css" media="all">
+    <link rel="stylesheet" id="style-css" href="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/style.css?ver=4.7.2" type="text/css" media="all">
+    <link rel="stylesheet" id="mytheme-signika-css" href="http://fonts.googleapis.com/css?family=Signika%3A400%2C300%2C600%2C700&amp;ver=4.7.2" type="text/css" media="all">
+    <link rel="stylesheet" id="mytheme-opensans-css" href="http://fonts.googleapis.com/css?family=Open+Sans%3A300&amp;ver=4.7.2" type="text/css" media="all">
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/plugins/kk-star-ratings/js.min.js?ver=2.5.1"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js?rev=4.3.8&amp;ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.3.8&amp;ver=4.7.2"></script>
+    <link rel="https://api.w.org/" href="http://www.deluxegrouptours.vn/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.deluxegrouptours.vn/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.deluxegrouptours.vn/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 4.7.2">
+    <link rel="shortlink" href="http://www.deluxegrouptours.vn/">
+    <link rel="alternate" type="application/json+oembed" href="http://www.deluxegrouptours.vn/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.deluxegrouptours.vn%2F">
+    <link rel="alternate" type="text/xml+oembed" href="http://www.deluxegrouptours.vn/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.deluxegrouptours.vn%2F&amp;format=xml">
+    <style id="pum-styles" type="text/css">
+        /* Popup Google Fonts */
+        @import url('//fonts.googleapis.com/css?family=Acme|Montserrat');
+
+        /* Popup Theme 1772: Framed Border */
+        .pum-theme-1772, .pum-theme-framed-border {
+            background-color: rgba( 255, 255, 255, 0.5 );
+        }
+
+            .pum-theme-1772 .pum-container, .pum-theme-framed-border .pum-container {
+                padding: 18px;
+                border-radius: 0px;
+                border: 20px outset #dd3333;
+                box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset;
+                background-color: rgba( 255, 251, 239, 1 );
+            }
+
+            .pum-theme-1772 .pum-title, .pum-theme-framed-border .pum-title {
+                color: #000000;
+                text-align: left;
+                text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                font-family: inherit;
+                font-size: 32px;
+                line-height: 36px;
+            }
+
+            .pum-theme-1772 .pum-content, .pum-theme-framed-border .pum-content {
+                color: #2d2d2d;
+                font-family: inherit;
+            }
+
+                .pum-theme-1772 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close {
+                    height: 20px;
+                    width: 20px;
+                    left: auto;
+                    right: -20px;
+                    bottom: auto;
+                    top: -20px;
+                    padding: 0px;
+                    color: #ffffff;
+                    font-family: Acme;
+                    font-size: 20px;
+                    line-height: 20px;
+                    border: 1px none #ffffff;
+                    border-radius: 0px;
+                    box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+                    background-color: rgba( 0, 0, 0, 0.55 );
+                }
+        /* Popup Theme 1771: Cutting Edge */
+        .pum-theme-1771, .pum-theme-cutting-edge {
+            background-color: rgba( 0, 0, 0, 0.5 );
+        }
+
+            .pum-theme-1771 .pum-container, .pum-theme-cutting-edge .pum-container {
+                padding: 18px;
+                border-radius: 0px;
+                border: 1px none #000000;
+                box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.5 );
+                background-color: rgba( 30, 115, 190, 1 );
+            }
+
+            .pum-theme-1771 .pum-title, .pum-theme-cutting-edge .pum-title {
+                color: #ffffff;
+                text-align: left;
+                text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                font-family: Sans-Serif;
+                font-size: 26px;
+                line-height: 28px;
+            }
+
+            .pum-theme-1771 .pum-content, .pum-theme-cutting-edge .pum-content {
+                color: #ffffff;
+                font-family: inherit;
+            }
+
+                .pum-theme-1771 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close {
+                    height: 24px;
+                    width: 24px;
+                    left: auto;
+                    right: 0px;
+                    bottom: auto;
+                    top: 0px;
+                    padding: 0px;
+                    color: #1e73be;
+                    font-family: inherit;
+                    font-size: 32px;
+                    line-height: 24px;
+                    border: 1px none #ffffff;
+                    border-radius: 0px;
+                    box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.1 );
+                    text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.1 );
+                    background-color: rgba( 238, 238, 34, 1 );
+                }
+        /* Popup Theme 1770: Hello Box */
+        .pum-theme-1770, .pum-theme-hello-box {
+            background-color: rgba( 0, 0, 0, 0.75 );
+        }
+
+            .pum-theme-1770 .pum-container, .pum-theme-hello-box .pum-container {
+                padding: 30px;
+                border-radius: 80px;
+                border: 14px solid #81d742;
+                box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0 );
+                background-color: rgba( 255, 255, 255, 1 );
+            }
+
+            .pum-theme-1770 .pum-title, .pum-theme-hello-box .pum-title {
+                color: #2d2d2d;
+                text-align: left;
+                text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                font-family: Montserrat;
+                font-size: 32px;
+                line-height: 36px;
+            }
+
+            .pum-theme-1770 .pum-content, .pum-theme-hello-box .pum-content {
+                color: #2d2d2d;
+                font-family: inherit;
+            }
+
+                .pum-theme-1770 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close {
+                    height: auto;
+                    width: auto;
+                    left: auto;
+                    right: -30px;
+                    bottom: auto;
+                    top: -30px;
+                    padding: 0px;
+                    color: #2d2d2d;
+                    font-family: inherit;
+                    font-size: 32px;
+                    line-height: 28px;
+                    border: 1px none #ffffff;
+                    border-radius: 28px;
+                    box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+                    background-color: rgba( 255, 255, 255, 1 );
+                }
+        /* Popup Theme 1769: Enterprise Blue */
+        .pum-theme-1769, .pum-theme-enterprise-blue {
+            background-color: rgba( 0, 0, 0, 0.7 );
+        }
+
+            .pum-theme-1769 .pum-container, .pum-theme-enterprise-blue .pum-container {
+                padding: 28px;
+                border-radius: 5px;
+                border: 1px none #000000;
+                box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.5 );
+                background-color: rgba( 255, 255, 255, 1 );
+            }
+
+            .pum-theme-1769 .pum-title, .pum-theme-enterprise-blue .pum-title {
+                color: #315b7c;
+                text-align: left;
+                text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                font-family: inherit;
+                font-size: 34px;
+                line-height: 36px;
+            }
+
+            .pum-theme-1769 .pum-content, .pum-theme-enterprise-blue .pum-content {
+                color: #2d2d2d;
+                font-family: inherit;
+            }
+
+                .pum-theme-1769 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close {
+                    height: 28px;
+                    width: 28px;
+                    left: auto;
+                    right: 8px;
+                    bottom: auto;
+                    top: 8px;
+                    padding: 4px;
+                    color: #ffffff;
+                    font-family: inherit;
+                    font-size: 20px;
+                    line-height: 20px;
+                    border: 1px none #ffffff;
+                    border-radius: 42px;
+                    box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+                    background-color: rgba( 49, 91, 124, 1 );
+                }
+        /* Popup Theme 1768: Light Box */
+        .pum-theme-1768, .pum-theme-lightbox {
+            background-color: rgba( 0, 0, 0, 0.6 );
+        }
+
+            .pum-theme-1768 .pum-container, .pum-theme-lightbox .pum-container {
+                padding: 10px;
+                border-radius: 3px;
+                border: 8px solid #000000;
+                box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1 );
+                background-color: rgba( 221, 51, 51, 1 );
+            }
+
+            .pum-theme-1768 .pum-title, .pum-theme-lightbox .pum-title {
+                color: #000000;
+                text-align: left;
+                text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                font-family: inherit;
+                font-size: 32px;
+                line-height: 36px;
+            }
+
+            .pum-theme-1768 .pum-content, .pum-theme-lightbox .pum-content {
+                color: #000000;
+                font-family: inherit;
+            }
+
+                .pum-theme-1768 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close {
+                    height: 30px;
+                    width: 30px;
+                    left: auto;
+                    right: -24px;
+                    bottom: auto;
+                    top: -24px;
+                    padding: 0px;
+                    color: #ffffff;
+                    font-family: inherit;
+                    font-size: 24px;
+                    line-height: 26px;
+                    border: 2px solid #ffffff;
+                    border-radius: 30px;
+                    box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 );
+                    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+                    background-color: rgba( 0, 0, 0, 1 );
+                }
+        /* Popup Theme 1767: Default Theme */
+        .pum-theme-1767, .pum-theme-default-theme {
+            background-color: rgba( 255, 255, 255, 1 );
+        }
+
+            .pum-theme-1767 .pum-container, .pum-theme-default-theme .pum-container {
+                padding: 18px;
+                border-radius: 0px;
+                border: 1px none #000000;
+                box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 );
+                background-color: rgba( 249, 249, 249, 1 );
+            }
+
+            .pum-theme-1767 .pum-title, .pum-theme-default-theme .pum-title {
+                color: #000000;
+                text-align: left;
+                text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                font-family: inherit;
+                font-weight: inherit;
+                font-size: 32px;
+                font-style: normal;
+                line-height: 36px;
+            }
+
+            .pum-theme-1767 .pum-content, .pum-theme-default-theme .pum-content {
+                color: #8c8c8c;
+                font-family: inherit;
+                font-weight: inherit;
+                font-style: normal;
+            }
+
+                .pum-theme-1767 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+                    height: auto;
+                    width: auto;
+                    left: auto;
+                    right: 0px;
+                    bottom: auto;
+                    top: 0px;
+                    padding: 8px;
+                    color: #ffffff;
+                    font-family: inherit;
+                    font-weight: inherit;
+                    font-size: 12px;
+                    font-style: normal;
+                    line-height: 14px;
+                    border: 1px none #ffffff;
+                    border-radius: 0px;
+                    box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+                    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+                    background-color: rgba( 0, 183, 205, 1 );
+                }
+    </style>
+    <style>
+        .kk-star-ratings {
+            width: 120px;
+        }
+
+            .kk-star-ratings .kksr-stars a {
+                width: 24px;
+            }
+
+            .kk-star-ratings .kksr-stars, .kk-star-ratings .kksr-stars .kksr-fuel, .kk-star-ratings .kksr-stars a {
+                height: 24px;
+            }
+
+            .kk-star-ratings .kksr-star.gray {
+                background-image: url(http://www.deluxegrouptours.vn/wp-content/plugins/kk-star-ratings/gray.png);
+            }
+
+            .kk-star-ratings .kksr-star.yellow {
+                background-image: url(http://www.deluxegrouptours.vn/wp-content/plugins/kk-star-ratings/yellow.png);
+            }
+
+            .kk-star-ratings .kksr-star.orange {
+                background-image: url(http://www.deluxegrouptours.vn/wp-content/plugins/kk-star-ratings/orange.png);
+            }
+    </style>
+    <style type="text/css">
+        /*start header*/
+        .titlecloseleftmenu {
+            background-color: #f5696c;
+        }
+
+        .rightsearchopen {
+            background-color: #1abc9c;
+        }
+
+
+        /*end header*/
+    </style>
+
+
+
+    <link rel="stylesheet" href="data:text/css,@import%20url%28%27%20https%3A//static.tacdn.com/css2/widget/cdswidWRL-v2317571853b.css%20%27%29%3B">
+    <script type="text/javascript" src="https://static.tacdn.com/js3/widget/cdswidgets_m-c-v2102084671b.js"></script>
+    <script src="https://platform.linkedin.com/js/secureAnonymousFramework?v=0.0.2000-RC8.59863-1429&amp;"></script>
+    <style type="text/css">
+        .fancybox-margin {
+            margin-right: 16px;
+        }
+    </style>
+    <style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">
+        .zopim {
+            display: none !important;
+        }
+    </style>
+    <style type="text/css">
+        .fb_hidden {
+            position: absolute;
+            top: -10000px;
+            z-index: 10001;
+        }
+
+        .fb_reposition {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .fb_invisible {
+            display: none;
+        }
+
+        .fb_reset {
+            background: none;
+            border: 0;
+            border-spacing: 0;
+            color: #000;
+            cursor: auto;
+            direction: ltr;
+            font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+            font-size: 11px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 1;
+            margin: 0;
+            overflow: visible;
+            padding: 0;
+            text-align: left;
+            text-decoration: none;
+            text-indent: 0;
+            text-shadow: none;
+            text-transform: none;
+            visibility: visible;
+            white-space: normal;
+            word-spacing: normal;
+        }
+
+            .fb_reset&gt;div {
+                overflow: hidden;
+            }
+
+        .fb_link img {
+            border: none;
+        }
+
+        @keyframes fb_transform {
+            from {
+                opacity: 0;
+                transform: scale(.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .fb_animate {
+            animation: fb_transform .3s forwards;
+        }
+
+        .fb_dialog {
+            background: rgba(82, 82, 82, .7);
+            position: absolute;
+            top: -10000px;
+            z-index: 10001;
+        }
+
+        .fb_reset .fb_dialog_legacy {
+            overflow: visible;
+        }
+
+        .fb_dialog_advanced {
+            padding: 10px;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+        }
+
+        .fb_dialog_content {
+            background: #fff;
+            color: #333;
+        }
+
+        .fb_dialog_close_icon {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+            _background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);
+            cursor: pointer;
+            display: block;
+            height: 15px;
+            position: absolute;
+            right: 18px;
+            top: 17px;
+            width: 15px;
+        }
+
+        .fb_dialog_mobile .fb_dialog_close_icon {
+            top: 5px;
+            left: 5px;
+            right: auto;
+        }
+
+        .fb_dialog_padding {
+            background-color: transparent;
+            position: absolute;
+            width: 1px;
+            z-index: -1;
+        }
+
+        .fb_dialog_close_icon:hover {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;
+            _background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);
+        }
+
+        .fb_dialog_close_icon:active {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;
+            _background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);
+        }
+
+        .fb_dialog_loader {
+            background-color: #f6f7f9;
+            border: 1px solid #606060;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .fb_dialog_top_left, .fb_dialog_top_right, .fb_dialog_bottom_left, .fb_dialog_bottom_right {
+            height: 10px;
+            width: 10px;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .fb_dialog_top_left {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;
+            left: -10px;
+            top: -10px;
+        }
+
+        .fb_dialog_top_right {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;
+            right: -10px;
+            top: -10px;
+        }
+
+        .fb_dialog_bottom_left {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;
+            bottom: -10px;
+            left: -10px;
+        }
+
+        .fb_dialog_bottom_right {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;
+            right: -10px;
+            bottom: -10px;
+        }
+
+        .fb_dialog_vert_left, .fb_dialog_vert_right, .fb_dialog_horiz_top, .fb_dialog_horiz_bottom {
+            position: absolute;
+            background: #525252;
+            filter: alpha(opacity=70);
+            opacity: .7;
+        }
+
+        .fb_dialog_vert_left, .fb_dialog_vert_right {
+            width: 10px;
+            height: 100%;
+        }
+
+        .fb_dialog_vert_left {
+            margin-left: -10px;
+        }
+
+        .fb_dialog_vert_right {
+            right: 0;
+            margin-right: -10px;
+        }
+
+        .fb_dialog_horiz_top, .fb_dialog_horiz_bottom {
+            width: 100%;
+            height: 10px;
+        }
+
+        .fb_dialog_horiz_top {
+            margin-top: -10px;
+        }
+
+        .fb_dialog_horiz_bottom {
+            bottom: 0;
+            margin-bottom: -10px;
+        }
+
+        .fb_dialog_iframe {
+            line-height: 0;
+        }
+
+        .fb_dialog_content .dialog_title {
+            background: #6d84b4;
+            border: 1px solid #365899;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+            .fb_dialog_content .dialog_title&gt;span {
+                background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+                float: left;
+                padding: 5px 0 7px 26px;
+            }
+
+        body.fb_hidden {
+            -webkit-transform: none;
+            height: 100%;
+            margin: 0;
+            overflow: visible;
+            position: absolute;
+            top: -10000px;
+            left: 0;
+            width: 100%;
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+            min-height: 100%;
+            min-width: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            z-index: 10001;
+        }
+
+            .fb_dialog.fb_dialog_mobile.loading.centered {
+                width: auto;
+                height: auto;
+                min-height: initial;
+                min-width: initial;
+                background: none;
+            }
+
+                .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+                    width: 100%;
+                }
+
+                .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+                    background: none;
+                }
+
+        .loading.centered #fb_dialog_loader_close {
+            color: #fff;
+            display: block;
+            padding-top: 20px;
+            clear: both;
+            font-size: 18px;
+        }
+
+        #fb-root #fb_dialog_ipad_overlay {
+            background: rgba(0, 0, 0, .45);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            width: 100%;
+            min-height: 100%;
+            z-index: 10000;
+        }
+
+            #fb-root #fb_dialog_ipad_overlay.hidden {
+                display: none;
+            }
+
+        .fb_dialog.fb_dialog_mobile.loading iframe {
+            visibility: hidden;
+        }
+
+        .fb_dialog_content .dialog_header {
+            -webkit-box-shadow: white 0 1px 1px -1px inset;
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));
+            border-bottom: 1px solid;
+            border-color: #1d4088;
+            color: #fff;
+            font: 14px Helvetica, sans-serif;
+            font-weight: bold;
+            text-overflow: ellipsis;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+
+            .fb_dialog_content .dialog_header table {
+                -webkit-font-smoothing: subpixel-antialiased;
+                height: 43px;
+                width: 100%;
+            }
+
+            .fb_dialog_content .dialog_header td.header_left {
+                font-size: 12px;
+                padding-left: 5px;
+                vertical-align: middle;
+                width: 60px;
+            }
+
+            .fb_dialog_content .dialog_header td.header_right {
+                font-size: 12px;
+                padding-right: 5px;
+                vertical-align: middle;
+                width: 60px;
+            }
+
+        .fb_dialog_content .touchable_button {
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));
+            border: 1px solid #29487d;
+            -webkit-background-clip: padding-box;
+            -webkit-border-radius: 3px;
+            -webkit-box-shadow: rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;
+            display: inline-block;
+            margin-top: 3px;
+            max-width: 85px;
+            line-height: 18px;
+            padding: 4px 12px;
+            position: relative;
+        }
+
+        .fb_dialog_content .dialog_header .touchable_button input {
+            border: none;
+            background: none;
+            color: #fff;
+            font: 12px Helvetica, sans-serif;
+            font-weight: bold;
+            margin: 2px -12px;
+            padding: 2px 6px 3px 6px;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+        }
+
+        .fb_dialog_content .dialog_header .header_center {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 18px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .fb_dialog_content .dialog_content {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+            border: 1px solid #555;
+            border-bottom: 0;
+            border-top: 0;
+            height: 150px;
+        }
+
+        .fb_dialog_content .dialog_footer {
+            background: #f6f7f9;
+            border: 1px solid #555;
+            border-top-color: #ccc;
+            height: 40px;
+        }
+
+        #fb_dialog_loader_close {
+            float: left;
+        }
+
+        .fb_dialog.fb_dialog_mobile .fb_dialog_close_button {
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+        }
+
+        .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+            visibility: hidden;
+        }
+
+        #fb_dialog_loader_spinner {
+            animation: rotateSpinner 1.2s linear infinite;
+            background-color: transparent;
+            background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            height: 24px;
+            width: 24px;
+        }
+
+        @keyframes rotateSpinner {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .fb_iframe_widget {
+            display: inline-block;
+            position: relative;
+        }
+
+            .fb_iframe_widget span {
+                display: inline-block;
+                position: relative;
+                text-align: justify;
+            }
+
+            .fb_iframe_widget iframe {
+                position: absolute;
+            }
+
+        .fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+            max-width: 100%;
+        }
+
+            .fb_iframe_widget_fluid_desktop iframe {
+                min-width: 220px;
+                position: relative;
+            }
+
+        .fb_iframe_widget_lift {
+            z-index: 1;
+        }
+
+        .fb_hide_iframes iframe {
+            position: relative;
+            left: -10000px;
+        }
+
+        .fb_iframe_widget_loader {
+            position: relative;
+            display: inline-block;
+        }
+
+        .fb_iframe_widget_fluid {
+            display: inline;
+        }
+
+            .fb_iframe_widget_fluid span {
+                width: 100%;
+            }
+
+        .fb_iframe_widget_loader iframe {
+            min-height: 32px;
+            z-index: 2;
+            zoom: 1;
+        }
+
+        .fb_iframe_widget_loader .FB_Loader {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;
+            height: 32px;
+            width: 32px;
+            margin-left: -16px;
+            position: absolute;
+            left: 50%;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body id="startpage" class="home page-template page-template-template-page-full-width-section page-template-template-page-full-width-section-php page page-id-87">
+    <div class="zopim" __jx__id="___$_60 ___$_60" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; overflow: hidden; position: fixed; z-index: 16000002; width: 180px; height: 30px; right: 10px; bottom: 0px;">
+        <iframe style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" frameborder="0"></iframe>
+    </div>
+    <div class="zopim" __jx__id="___$_4 ___$_4" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; overflow: hidden; position: fixed; z-index: 16000001; right: 10px; bottom: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; display: none; width: 290px; height: 400px; box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.1);">
+        <iframe style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" frameborder="0"></iframe>
+    </div>
+
+
+
+    <!--start left menu open-->
+    <div class="leftmenuopen leftmenuopenlight" style="overflow: hidden;" tabindex="5000">
+        <p class="titlecloseleftmenu">Left Menu</p>
+        <div class="menu-left-navigation-container">
+            <ul id="menu-left-navigation" class="">
+                <li id="menu-item-976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-976"><a href="http://www.deluxegrouptours.vn/halong-bay-group-tours/">Halong Bay Group Tours</a></li>
+                <li id="menu-item-977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-977"><a href="http://www.deluxegrouptours.vn/mekong-delta-group-tours/">Mekong Delta Group Tours</a></li>
+                <li id="menu-item-978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-978"><a href="http://www.deluxegrouptours.vn/hanoi-group-tours/">Hanoi Group Tours</a></li>
+                <li id="menu-item-979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-979"><a href="http://www.deluxegrouptours.vn/hue-tours-group/">Hue City Group Tours</a></li>
+                <li id="menu-item-980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-980"><a href="http://www.deluxegrouptours.vn/ho-chi-minh-city-group-tours/">Ho Chi Minh City Group Tours</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--end left menu open-->
+
+
+    <!--all header-->
+    <div class="supporttop">
+        24/7 Reservation Supports: - Phone: +84 9 3838 6678 - Email: reservation@atravelmate.com 
+
+    </div>
+    <div class="allheader">
+        <!--start topnavigationmenu-->
+        <div class="topnavigationmenu">
+            <div class="container">
+                <div class="grid_12" style="text-align: center">
+                    <img src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/img/logo_deluxe2180.png" alt="logo of Deluxe Goup Tour - Vietnam group tour">
+                </div>
+            </div>
+        </div>
+        <!--end topnavigationmenu-->
+
+        <!--start header-->
+        <header id="navigationmenu" class="fade-down animate1 navigationmenulight animated fadeInDown">
+
+            <!--start left menu close-->
+            <div style="background-color: #F76570" class="leftmenuclose">
+
+                <i style="color: #fff" class="icon-menu"></i>
+
+            </div>
+            <!--end left menu close-->
+
+
+            <!--start container-->
+            <div class="container">
+
+                <!--start navigation-->
+                <div class="grid_12 gridnavigation">
+
+                    <!--start navigation-->
+                    <div class="menu-main-navigation-container">
+                        <ul id="menu-main-navigation" class="menu sf-js-enabled sf-arrows l_tinynav1">
+                            <li id="menu-item-459" class="blue menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-87 current_page_item menu-item-459"><a href="http://www.deluxegrouptours.vn/">HOME</a></li>
+                            <li id="menu-item-457" class="green menu-item menu-item-type-post_type menu-item-object-page menu-item-457"><a href="http://www.deluxegrouptours.vn/about-us/">ABOUT US</a></li>
+                            <li id="menu-item-36" class="red menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36"><a href="#" class="sf-with-ul">OUR GROUP TOURS</a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li id="menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-703"><a href="http://www.deluxegrouptours.vn/ho-chi-minh-city-group-tours/">Ho Chi Minh City Group Tours</a></li>
+                                    <li id="menu-item-710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-710"><a href="http://www.deluxegrouptours.vn/mekong-delta-group-tours/">Mekong Delta Group Tours</a></li>
+                                    <li id="menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702"><a href="http://www.deluxegrouptours.vn/hue-tours-group/">Hue City Group Tours</a></li>
+                                    <li id="menu-item-701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="http://www.deluxegrouptours.vn/hanoi-group-tours/">Hanoi Group Tours</a></li>
+                                    <li id="menu-item-1601" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1601"><a target="_blank" href="http://www.atravelmate.com/sapa-tours/">Sapa Tours</a></li>
+                                    <li id="menu-item-1698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1698"><a href="http://www.deluxegrouptours.vn/vietnam-deluxe-packages-tours/">Vietnam Deluxe Packages Tours</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-719" class="orange menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-719"><a href="#" class="sf-with-ul">DESTINATIONS</a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li id="menu-item-721" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-721"><a href="http://www.deluxegrouptours.vn/ho-chi-minh-city/">Ho Chi Minh City</a></li>
+                                    <li id="menu-item-720" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-720"><a href="http://www.deluxegrouptours.vn/hue-city/">Hue City</a></li>
+                                    <li id="menu-item-722" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-722"><a href="http://www.deluxegrouptours.vn/hanoi-city/">Hanoi City</a></li>
+                                    <li id="menu-item-723" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-723"><a href="http://www.deluxegrouptours.vn/halong/">Halong Bay</a></li>
+                                    <li id="menu-item-724" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-724"><a href="http://www.deluxegrouptours.vn/mekong-delta/">Mekong Delta</a></li>
+                                    <li id="menu-item-726" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-726"><a href="http://www.deluxegrouptours.vn/ninh-binh/">Ninh Binh</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-727" class="blue menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-727"><a href="#" class="sf-with-ul">TRAVEL GUIDE</a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li id="menu-item-730" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-730"><a href="http://www.deluxegrouptours.vn/ho-chi-minh-travel-guide/">Ho Chi Minh Travel Guide</a></li>
+                                    <li id="menu-item-731" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-731"><a href="http://www.deluxegrouptours.vn/hue-travel-guide/">Hue Travel Guide</a></li>
+                                    <li id="menu-item-728" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-728"><a href="http://www.deluxegrouptours.vn/halong-bay-travel-guide/">Halong Bay Travel Guide</a></li>
+                                    <li id="menu-item-729" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-729"><a href="http://www.deluxegrouptours.vn/hanoi-travel-guide/">Hanoi Travel Guide</a></li>
+                                    <li id="menu-item-732" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-732"><a href="http://www.deluxegrouptours.vn/mekong-delta-travel-guide/">Mekong Delta Travel Guide</a></li>
+                                    <li id="menu-item-733" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-733"><a href="http://www.deluxegrouptours.vn/sapa-travel-guide/">Sapa Travel Guide</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-467" class="yellow menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href="http://www.deluxegrouptours.vn/gallery/">GALLERY</a></li>
+                            <li id="menu-item-958" class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-958"><a href="#" class="sf-with-ul">CONTACT US</a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="http://www.deluxegrouptours.vn/contact-ho-chi-minh-office/">Contact Ho Chi Minh Office</a></li>
+                                    <li id="menu-item-961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="http://www.deluxegrouptours.vn/contact-hue-office/">Contact Hue Office</a></li>
+                                    <li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="http://www.deluxegrouptours.vn/contact-hanoi-office/">Contact Hanoi Office</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <select id="tinynav1" class="tinynav tinynav1">
+                            <option>Menu</option>
+                            <option value="http://www.deluxegrouptours.vn/">HOME</option>
+                            <option value="http://www.deluxegrouptours.vn/about-us/">ABOUT US</option>
+                            <option value="#">OUR GROUP TOURS</option>
+                            <option value="http://www.deluxegrouptours.vn/ho-chi-minh-city-group-tours/">- Ho Chi Minh City Group Tours</option>
+                            <option value="http://www.deluxegrouptours.vn/mekong-delta-group-tours/">- Mekong Delta Group Tours</option>
+                            <option value="http://www.deluxegrouptours.vn/hue-tours-group/">- Hue City Group Tours</option>
+                            <option value="http://www.deluxegrouptours.vn/hanoi-group-tours/">- Hanoi Group Tours</option>
+                            <option value="http://www.atravelmate.com/sapa-tours/">- Sapa Tours</option>
+                            <option value="http://www.deluxegrouptours.vn/vietnam-deluxe-packages-tours/">- Vietnam Deluxe Packages Tours</option>
+                            <option value="#">DESTINATIONS</option>
+                            <option value="http://www.deluxegrouptours.vn/ho-chi-minh-city/">- Ho Chi Minh City</option>
+                            <option value="http://www.deluxegrouptours.vn/hue-city/">- Hue City</option>
+                            <option value="http://www.deluxegrouptours.vn/hanoi-city/">- Hanoi City</option>
+                            <option value="http://www.deluxegrouptours.vn/halong/">- Halong Bay</option>
+                            <option value="http://www.deluxegrouptours.vn/mekong-delta/">- Mekong Delta</option>
+                            <option value="http://www.deluxegrouptours.vn/ninh-binh/">- Ninh Binh</option>
+                            <option value="#">TRAVEL GUIDE</option>
+                            <option value="http://www.deluxegrouptours.vn/ho-chi-minh-travel-guide/">- Ho Chi Minh Travel Guide</option>
+                            <option value="http://www.deluxegrouptours.vn/hue-travel-guide/">- Hue Travel Guide</option>
+                            <option value="http://www.deluxegrouptours.vn/halong-bay-travel-guide/">- Halong Bay Travel Guide</option>
+                            <option value="http://www.deluxegrouptours.vn/hanoi-travel-guide/">- Hanoi Travel Guide</option>
+                            <option value="http://www.deluxegrouptours.vn/mekong-delta-travel-guide/">- Mekong Delta Travel Guide</option>
+                            <option value="http://www.deluxegrouptours.vn/sapa-travel-guide/">- Sapa Travel Guide</option>
+                            <option value="http://www.deluxegrouptours.vn/gallery/">GALLERY</option>
+                            <option value="#">CONTACT US</option>
+                            <option value="http://www.deluxegrouptours.vn/contact-ho-chi-minh-office/">- Contact Ho Chi Minh Office</option>
+                            <option value="http://www.deluxegrouptours.vn/contact-hue-office/">- Contact Hue Office</option>
+                            <option value="http://www.deluxegrouptours.vn/contact-hanoi-office/">- Contact Hanoi Office</option>
+                        </select>
+                    </div>
+                    <!--end navigationmenu-->
+
+                </div>
+                <!--end navigation-->
+
+            </div>
+            <!--end container-->
+
+            <div style="background-color: #1abc9c" class="rightsearchclose">
+                <i class="icon-search"></i>
+            </div>
+
+            <!--start right search-->
+            <div class="rightsearchopen">
+                <form role="search" method="get" id="searchform" class="searchform" action="http://www.deluxegrouptours.vn/">
+                    <div>
+                        <label class="screen-reader-text" for="s">Search for:</label>
+                        <input value="" name="s" id="s" type="text">
+                        <input id="searchsubmit" value="Search" type="submit">
+                    </div>
+                </form>
+                <span class="rightsearchopenclose"></span>
+            </div>
+            <!--end right search-->
+
+        </header>
+        <!--end header-->
+
+    </div>
+    <!--allheader-->
+
+
+
+
+
+
+    <p>
+        <!-- START REVOLUTION SLIDER 4.3.8 fullwidth mode -->
+
+    </p>
+    <div id="rev_slider_14_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin: 150px auto 0px; background-color: rgb(233, 233, 233); padding: 0px; max-height: 450px; overflow: visible; height: 450px;">
+        <div id="rev_slider_14_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive" style="max-height: 450px; height: 450px;">
+            <ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: 450px;">
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="http://www.deluxegrouptours.vn/wp-content/uploads/2017/01/banner-2017.jpg" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1; position: absolute;">
+                    <!-- MAIN IMAGE -->
+                    <div class="slotholder" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);" data-duration="9000" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="Linear.easeNone" data-bgpositionend="center top" data-bgposition="center bottom" data-kenburns="on" data-easeme="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-owidth="undefined" data-oheight="undefined">
+                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="100" data-bgposition="center bottom" data-bgrepeat="no-repeat" data-lazydone="undefined" src="http://www.deluxegrouptours.vn/wp-content/uploads/2017/01/banner-2017.jpg" data-src="http://www.deluxegrouptours.vn/wp-content/uploads/2017/01/banner-2017.jpg" style="background-color: transparent; background-repeat: no-repeat; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2017/01/banner-2017.jpg&quot;); background-position: 50% 0%; width: 100%; height: 100%; opacity: 0; background-size: 100% 88%;"></div>
+                        <div class="kenburnimg" style="position: absolute; z-index: 1; width: 100%; height: 100%; top: 0px; left: 0px;">
+                            <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2017/01/banner-2017.jpg" style="-moz-user-select: none; position: absolute; width: 100%; height: 88%; left: 0px; top: 0px; visibility: hidden; opacity: 0; transform: translate3d(0px, 0px, 0px); transform-origin: 0% 0% 0px;">
+                        </div>
+                    </div>
+                    <!-- LAYERS -->
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/hue-city-tour-with-deluxe-group-tours.jpg" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1; position: absolute;">
+                    <!-- MAIN IMAGE -->
+                    <div class="slotholder" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
+                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/hue-city-tour-with-deluxe-group-tours.jpg" data-src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/hue-city-tour-with-deluxe-group-tours.jpg" style="background-color: transparent; background-repeat: no-repeat; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/hue-city-tour-with-deluxe-group-tours.jpg&quot;); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 0;"></div>
+                    </div>
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption black skewfromright tp-resizeme start" data-x="10" data-y="10" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 2; white-space: nowrap; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 16px; left: 10.5px; top: 10px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, -0.99619, 0.08715, 0, 0, 0, 0, 1, 0, 1365, 0, 0, 1);">
+                        Hue City Tour 1 day 
+                        <div class="frontcorner" style="min-height: 0px; min-width: 0px; line-height: 20px; border-width: 20px 0px 20px 20px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 16px; left: -20px; border-right: 0px solid transparent; border-top-color: transparent;"></div>
+                    </div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/mekong-delta-tour-with-deluxe-group-tour.jpg" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; z-index: 20; opacity: 1; position: absolute;">
+                    <!-- MAIN IMAGE -->
+                    <div class="slotholder" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);" data-duration="9000" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="Linear.easeNone" data-bgpositionend="center bottom" data-bgposition="center top" data-kenburns="on" data-easeme="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-owidth="undefined" data-oheight="undefined">
+                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="100" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/mekong-delta-tour-with-deluxe-group-tour.jpg" data-src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/mekong-delta-tour-with-deluxe-group-tour.jpg" style="background-color: transparent; background-repeat: no-repeat; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/mekong-delta-tour-with-deluxe-group-tour.jpg&quot;); background-position: 50% 84.4333%; width: 100%; height: 100%; opacity: 1; background-size: 100% 128%;"></div>
+                        <div class="kenburnimg" style="position: absolute; z-index: 1; width: 100%; height: 100%; top: 0px; left: 0px;">
+                            <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/mekong-delta-tour-with-deluxe-group-tour.jpg" style="-moz-user-select: none; position: absolute; width: 100%; height: 128%; left: 0px; top: 0px; visibility: inherit; opacity: 1; transform: translate3d(0px, -106.386px, 0px); transform-origin: 0% 0% 0px;">
+                        </div>
+                    </div>
+                    <!-- LAYERS -->
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="http://www.deluxegrouptours.vn/wp-content/uploads/2015/06/Mekong-Delta-tours1.jpg" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1; position: absolute;">
+                    <!-- MAIN IMAGE -->
+                    <div class="slotholder" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);" data-duration="9000" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="Linear.easeNone" data-bgpositionend="center top" data-bgposition="center top" data-kenburns="on" data-easeme="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-owidth="undefined" data-oheight="undefined">
+                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="100" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/06/Mekong-Delta-tours1.jpg" data-src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/06/Mekong-Delta-tours1.jpg" style="background-color: transparent; background-repeat: no-repeat; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2015/06/Mekong-Delta-tours1.jpg&quot;); background-position: 50% 0%; width: 100%; height: 100%; opacity: 0; background-size: 100% 121%;"></div>
+                        <div class="kenburnimg" style="position: absolute; z-index: 1; width: 100%; height: 100%; top: 0px; left: 0px;">
+                            <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/06/Mekong-Delta-tours1.jpg" style="-moz-user-select: none; position: absolute; width: 100%; height: 121%; left: 0px; top: 0px; visibility: hidden; opacity: 0; transform: translate3d(0px, 0px, 0px); transform-origin: 0% 0% 0px;">
+                        </div>
+                    </div>
+                    <!-- LAYERS -->
+                </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden; width: 66.7889%;"></div>
+            <div class="tp-loader spinner3" style="visibility: hidden; opacity: 0;">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="tp-bullets tp-thumbs round hidebullets" style="width: 400px; height: 50px; bottom: 20px; left: 50%; margin-left: -201px;">
+            <div class="tp-mask" style="width: 400px; height: 50px;">
+                <div class="tp-thumbcontainer" style="left: 0px;">
+                    <div class="bullet thumb first" style="background-color: transparent; position: relative; width: 100px; height: 50px; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2017/01/banner-2017.jpg&quot;) ! important; background-size: cover; background-position: center center;"></div>
+                    <div class="bullet thumb" style="background-color: transparent; position: relative; width: 100px; height: 50px; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/hue-city-tour-with-deluxe-group-tours.jpg&quot;) ! important; background-size: cover; background-position: center center;"></div>
+                    <div class="bullet thumb selected" style="background-color: transparent; position: relative; width: 100px; height: 50px; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2015/11/mekong-delta-tour-with-deluxe-group-tour.jpg&quot;) ! important; background-size: cover; background-position: center center;"></div>
+                    <div class="bullet thumb last" style="background-color: transparent; position: relative; width: 100px; height: 50px; background-image: url(&quot;http://www.deluxegrouptours.vn/wp-content/uploads/2015/06/Mekong-Delta-tours1.jpg&quot;) ! important; background-size: cover; background-position: center center;"></div>
+                </div>
+            </div>
+        </div>
+        <div style="visibility: hidden; display: none" class="tp-leftarrow tparrows round hidearrows"></div>
+        <div style="visibility: hidden; display: none" class="tp-rightarrow tparrows round hidearrows"></div>
+    </div>
+    <script type="text/javascript">
+
+        var tpj=jQuery;				
+        tpj.noConflict();				
+        var revapi14;
+				
+        tpj(document).ready(function() {
+								
+            if(tpj('#rev_slider_14_1').revolution == undefined)
+                revslider_showDoubleJqueryError('#rev_slider_14_1');
+            else
+                revapi14 = tpj('#rev_slider_14_1').show().revolution(
+                 {
+                     dottedOverlay:"none",
+                     delay:9000,
+                     startwidth:1349,
+                     startheight:450,
+                     hideThumbs:200,
+						
+                     thumbWidth:100,
+                     thumbHeight:50,
+                     thumbAmount:4,
+						
+                     navigationType:"thumb",
+                     navigationArrows:"none",
+                     navigationStyle:"round",
+						
+                     touchenabled:"on",
+                     onHoverStop:"on",
+						
+                     swipe_velocity: 0.7,
+                     swipe_min_touches: 1,
+                     swipe_max_touches: 1,
+                     drag_block_vertical: false,
+												
+                     keyboardNavigation:"off",
+						
+                     navigationHAlign:"center",
+                     navigationVAlign:"bottom",
+                     navigationHOffset:0,
+                     navigationVOffset:20,
+
+                     soloArrowLeftHalign:"left",
+                     soloArrowLeftValign:"center",
+                     soloArrowLeftHOffset:20,
+                     soloArrowLeftVOffset:0,
+
+                     soloArrowRightHalign:"right",
+                     soloArrowRightValign:"center",
+                     soloArrowRightHOffset:20,
+                     soloArrowRightVOffset:0,
+								
+                     shadow:0,
+                     fullWidth:"on",
+                     fullScreen:"off",
+
+                     spinner:"spinner3",
+						
+                     stopLoop:"off",
+                     stopAfterLoops:-1,
+                     stopAtSlide:-1,
+
+						
+                     shuffle:"off",
+						
+                     autoHeight:"off",						
+                     forceFullWidth:"off",						
+												
+												
+                     hideTimerBar:"on",						
+                     hideThumbsOnMobile:"off",
+                     hideNavDelayOnMobile:1500,						hideBulletsOnMobile:"off",
+                     hideArrowsOnMobile:"off",
+                     hideThumbsUnderResolution:0,
+						
+                     hideSliderAtLimit:0,
+                     hideCaptionAtLimit:0,
+                     hideAllCaptionAtLilmit:0,
+                     startWithSlide:0,
+                     videoJsPath:"http://www.deluxegrouptours.vn/wp-content/plugins/revslider/rs-plugin/videojs/",
+                     fullScreenOffsetContainer: ""	
+                 });
+				
+        });	//ready
+				
+			</script>
+
+    <style type="text/css">
+        #rev_slider_14_1_wrapper .tp-loader.spinner3 div {
+            background-color: #FFFFFF !important;
+        }
+    </style>
+    <!-- END REVOLUTION SLIDER -->
+    <br>
+    <section id="sectionsearchtravel" class="sectionhome">
+        <div class="container clearfix">
+            <form class="green" id="formsearchtravel" method="post" action="http://www.deluxegrouptours.vn/search-travel/">
+                <div class="labelsearchtravel">
+                    <i class="icon-direction"></i>
+                    <h1>BOOK DELUXE GROUP TOURS</h1>
+                </div>
+                <div class="grid_3">
+                    <select name="destinations">
+                        <option value="">All Destinations</option>
+                        <option value="halong-bay">Halong Bay</option>
+                        <option value="hanoi-city">Hanoi City</option>
+                        <option value="ho-chi-minh-city">Ho Chi Minh City</option>
+                        <option value="hue-city">Hue City</option>
+                        <option value="mekong-delta">Mekong Delta</option>
+                        <option value="ninh-binh">Ninh Binh</option>
+                    </select>
+                </div>
+                <div class="grid_3">
+                    <select name="types">
+                        <option value="">All Types</option>
+                        <option value="daily-group-tours">Daily Group Tours</option>
+                        <option value="vietnam-deluxe-package-tours">Vietnam Deluxe Package Tours</option>
+                        <option value="weekly-group-tours">Weekly Group Tours</option>
+                    </select>
+                </div>
+                <div class="grid_3">
+                    <select name="durations">
+                        <option value="">All Durations</option>
+                        <option value="1-day">1 Day</option>
+                        <option value="half-day">Half Day</option>
+                        <option value="multi-days">Multi Days</option>
+                    </select>
+                </div>
+                <div class="grid_2">
+                    <input value="search" type="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <div class=" grid_12  ">
+                <div class="titlesection ">
+                    <p></p>
+                    <h2><a href="http://www.deluxegrouptours.vn/ho-chi-minh-city-group-tours/">HO CHI MINH DELUXE GROUP TOURS</a></h2>
+                    <h4>CHOOSE YOUR&nbsp; TOUR AND BOOK IT NOW</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <p></p>
+            <p></p>
+            <div class="yellow grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/cu-chi-tunnels-tour-half-day/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/cu-chi-tunnels-tour7-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="cu chi tunnels tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/cu-chi-tunnels-tour7-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/cu-chi-tunnels-tour7-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/cu-chi-tunnels-tour7.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$25</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/cu-chi-tunnels-tour-half-day/">
+                                <h3 class="titlearchivetour">CU CHI TUNNELS TOUR HALF DAY</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>Half</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Cu Chi Tunnels is the immense network of connecting underground tunnels located in the Cu Chi district of Ho Chi Minh City. Tunnels system includes storage facilities, clinics, office , weapons factories...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blue grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/authentic-local-market-tour/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cyclo-tours-deluxe-group-tours-400x267.jpg" class="attachment-medium size-medium wp-post-image" alt="cyclo tours - deluxe group tours" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cyclo-tours-deluxe-group-tours-400x267.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cyclo-tours-deluxe-group-tours-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cyclo-tours-deluxe-group-tours-100x67.jpg 100w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cyclo-tours-deluxe-group-tours.jpg 800w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="267">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$24</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/authentic-local-market-tour/">
+                                <h3 class="titlearchivetour">AUTHENTIC LOCAL MARKET TOUR</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>Half</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Markets are the lifeblood of Vietnam. There are thousands of them. Every little village has one, as do the biggest cities. You can buy anything. Meat, live seafood, vegetables..</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="violet grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/ho-chi-minh-city-tour-half-day/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/reunification_palace-ho-chi-minh-city-tour-half-day21-370x246.jpg" class="attachment-medium size-medium wp-post-image" alt="Ho Chi Minh City Tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/reunification_palace-ho-chi-minh-city-tour-half-day21-370x246.jpg 370w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/reunification_palace-ho-chi-minh-city-tour-half-day21-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/reunification_palace-ho-chi-minh-city-tour-half-day21.jpg 660w" sizes="(max-width: 370px) 100vw, 370px" width="370" height="246">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$25</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/ho-chi-minh-city-tour-half-day/">
+                                <h3 class="titlearchivetour">HO CHI MINH CITY TOUR HALF DAY</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>Half</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Ho Chi Minh City Tour half day unravels Saigon’s turbulent past and also provides a glimpse into the fascinating variety the city has to offer. We visit the following places of interest.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <div class=" grid_12  ">
+                <div class="titlesection ">
+                    <p></p>
+                    <h2><a href="http://www.deluxegrouptours.vn/mekong-delta-group-tours/">MEKONG DELTA DELUXE GROUP TOURS</a></h2>
+                    <h4>CHOOSE YOUR&nbsp; TOUR AND BOOK IT NOW</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <div class="yellow grid_4  ">
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/classic-mekong-delta-tour-1-day/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/08/ben-tre-my-tho-tour-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="Classic Mekong Delta Tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/08/ben-tre-my-tho-tour-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/08/ben-tre-my-tho-tour-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/08/ben-tre-my-tho-tour.jpg 780w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$38</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/classic-mekong-delta-tour-1-day/">
+                                <h3 class="titlearchivetour">CLASSIC MEKONG DELTA TOUR 1 DAY</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>1</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Mekong Delta is the fertile lands in southwestern of Vietnam, Mekong Delta is sediment deposition by Mekong River, also known as the Southwest, or referred as the West.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="red grid_4  ">
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/insight-mekong-delta-day-tour/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/mekong-delta-insight23-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="mekong delta insight tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/mekong-delta-insight23-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/mekong-delta-insight23-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/mekong-delta-insight23.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$45</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/insight-mekong-delta-day-tour/">
+                                <h3 class="titlearchivetour">INSIGHT MEKONG DELTA TOUR</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>1</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>The few travelers who push on beyond My Tho into Ben Tre are rewarded with some of the Mekong Delta’s most breathtaking scenery. Bentre is one of the provinces located</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="violet grid_4  ">
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/vinh-long-cai-be-floating-market-tour/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cai-be-floating-market-tour-400x267.jpg" class="attachment-medium size-medium wp-post-image" alt="cai-be-floating-market-tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cai-be-floating-market-tour-400x267.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cai-be-floating-market-tour-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cai-be-floating-market-tour-100x67.jpg 100w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/10/cai-be-floating-market-tour.jpg 780w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="267">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$63</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/vinh-long-cai-be-floating-market-tour/">
+                                <h3 class="titlearchivetour">UNIQUE CAI BE FLOATING MARKET &ndash; FOOD ADVENTURE TOUR</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>1</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>This day trip from Ho Chi Minh City to Cai Be takes you to visit fruit orchards, a candy workshop and Cai Be Floating Market before a cruise through the maze of canals to Tan Phong Island for cooking class.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <div class=" grid_12  ">
+                <div class="titlesection ">
+                    <p></p>
+                    <h2><a href="http://www.deluxegrouptours.vn/hue-tours-group/">HUE DELUXE GROUP TOURS</a></h2>
+                    <h4>CHOOSE YOUR&nbsp; TOUR AND BOOK IT NOW</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <p></p>
+            <p></p>
+            <div class="yellow grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/hue-city-tour-1-day/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour2-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="Hue City Tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour2-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour2-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour2.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$39</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/hue-city-tour-1-day/">
+                                <h3 class="titlearchivetour">HUE CITY TOUR 1 DAY</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>1</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Hue Tours &ndash; Are you a history buff, or simply love discovering exotic cultures?  Hue city &ndash; Vietnam’s former Royal Capital is definitely on the top list of your travel plan.  Let us show you the Hue imperial city</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="violet grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/hue-boat-trip-on-perfume-river/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2014/09/hue-dragon-boat1-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="Hue Dragon Boat" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2014/09/hue-dragon-boat1-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2014/09/hue-dragon-boat1-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2014/09/hue-dragon-boat1.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$10</p>
+                            </div>
+                            <p class="titleleftarchivetour"><span class="striketext">20 $</span></p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/hue-boat-trip-on-perfume-river/">
+                                <h3 class="titlearchivetour">HUE BOAT TRIP ON PERFUME RIVER</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>Half</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Hue is beautiful and elegant from whatever angle you see it. With this half day tour, we invite you to get immersed into its pure nature with Hue boat trip on Perfume River...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blue grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/glimpse-tour-of-hue-half-day/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour-half-day1-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="hue city tour half day" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour-half-day1-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour-half-day1-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/hue-city-tour-half-day1.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$26</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/glimpse-tour-of-hue-half-day/">
+                                <h3 class="titlearchivetour">GLIMPSE TOUR OF HUE HALF DAY</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>Half</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Hue City has been one of the country’s foremost cultural, religious, and educational centers. UNESCO declared it a World Heritage Site in 1993. Restoration and preservation work continues...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <div class=" grid_12  ">
+                <div class="titlesection ">
+                    <p></p>
+                    <h2><a href="http://www.deluxegrouptours.vn/hanoi-group-tours/">HANOI DELUXE GROUP TOURS</a></h2>
+                    <h4>CHOOSE YOUR&nbsp; TOUR AND BOOK IT NOW</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="sectionhome">
+        <div class="container clearfix">
+            <div class="red grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/hanoi-attractions/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/house-on-stilts6601-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="Hanoi City Tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/house-on-stilts6601-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/house-on-stilts6601-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/house-on-stilts6601.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$45</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/hanoi-attractions/">
+                                <h3 class="titlearchivetour">HANOI ATTRACTIONS</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>1</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Experience the essential things to do in Hanoi,see all the historical and modern sights of the city with full commentary provided. Hop-on hop-off at major attractions including Tran Quoc Pagoda, Ho Chi Minh Complex,Temple of Literature…</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="violet grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/bat-trang-ceramic-village-tour/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/BAT-TRANG-CERAMIC-VILLAGE-TOUR81-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="BAT TRANG CERAMIC VILLAGE TOUR" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/BAT-TRANG-CERAMIC-VILLAGE-TOUR81-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/BAT-TRANG-CERAMIC-VILLAGE-TOUR81-300x199.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/BAT-TRANG-CERAMIC-VILLAGE-TOUR81.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$SALE</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/bat-trang-ceramic-village-tour/">
+                                <h3 class="titlearchivetour">BAT TRANG CERAMIC VILLAGE TOUR</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>1</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>Hanoi is famous for the land of handicraft villages and the most well-known one is Bat Trang Ceramic village. Depart from Hanoi after breakfast and head 10 km Northeast to this Hanoi attraction...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blue grid_4  ">
+
+                <div class="archivetour">
+                    <div class="leftarchivetour">
+                        <a href="http://www.deluxegrouptours.vn/travel/hanoi-to-ninh-binh-day-trip/">
+                            <div class="imgarchivesinglepost">
+                                <div class="btnsarchivesingletravel"></div>
+                                <img src="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/trang-an-ninh-binh-tour66011-400x266.jpg" class="attachment-medium size-medium wp-post-image" alt="trang an ninh binh tour" srcset="http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/trang-an-ninh-binh-tour66011-400x266.jpg 400w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/trang-an-ninh-binh-tour66011-300x200.jpg 300w, http://www.deluxegrouptours.vn/wp-content/uploads/2015/02/trang-an-ninh-binh-tour66011.jpg 660w" sizes="(max-width: 400px) 100vw, 400px" width="400" height="266">
+                            </div>
+                        </a>
+                        <div class="pricetitleleftarchivetour">
+                            <div class="priceleftarchivetour">
+                                <p>$58</p>
+                            </div>
+                            <p class="titleleftarchivetour">Guarantee Tours</p>
+                        </div>
+                    </div>
+                    <div class="rightarchivetour">
+                        <div class="titledayarchivetour">
+                            <a href="http://www.deluxegrouptours.vn/travel/hanoi-to-ninh-binh-day-trip/">
+                                <h3 class="titlearchivetour">NINH BINH DAY TRIP</h3>
+                            </a>
+                            <div class="dayarchivetour">
+                                <p>1</p>
+                                <span>DAYS</span>
+                            </div>
+                        </div>
+                        <div class="descriptioniconsarchivetour">
+                            <p>With a 100km drive through rural northern Vietnam, from Hanoi to Ninh Binh, much closer to Hanoi than Halong Bay, yet just as breathtaking, this up-and-coming destination offers surreal limestone karsts, tranquil boat rides and the Vietnam’s former capital, Hoa Lu,</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <p></p>
+
+
+    <div class="divider"><span></span></div>
+
+
+
+
+
+
+
+
+
+
+    <!--start footer-->
+
+    <footer id="footer">
+
+        <div class="container clearfix">
+
+
+
+
+            <div class="grid_3 gridfooter">
+
+                <div id="text-9" class="widget widget_text">
+                    <h3>TRIPADVISOR COMMENT</h3>
+                    <div class="textwidget">
+                        <div id="TA_cdswritereviewlg971" class="TA_cdswritereviewlg">
+                            <div id="CDSWIDWRL" class="widWRL">
+                                <div class="widWRLData" style="border: #589442 1px solid;">
+                                    <div class="widWRLBranding">
+                                        <dl>
+                                            <dt><a target="_blank" href="https://www.tripadvisor.com/">
+                                                <img src="https://www.tripadvisor.com/img/cdsi/img2/branding/medium-logo-12097-2.png" alt="TripAdvisor"></a> </dt>
+                                            <dt class="messaging">Know better. Book better. Go better.</dt>
+                                        </dl>
+                                    </div>
+                                    <div class="widWRLLink"><a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g293925-d8263413-Reviews-A_Travel_Mate_Day_Tours_Saigon-Ho_Chi_Minh_City.html" onclick="ta.cds.handleTALink(12097,this);return true;" rel="nofollow">Review A Travel Mate - Day Tours Saigon</a> </div>
+                                    <form action="https://www.tripadvisor.com/UserReview-g293925-d8263413-A_Travel_Mate_Day_Tours_Saigon-Ho_Chi_Minh_City.html" target="_blank" name="cdsWRLForm9574" id="cdsWRLForm9574" onsubmit="ta.cds.handleTALink(12097,this);return false;">
+                                        <input id="rating09574" value="(Click to rate)" type="hidden">
+                                        <input id="rating19574" value="Terrible" type="hidden">
+                                        <input id="rating29574" value="Poor" type="hidden">
+                                        <input id="rating39574" value="Average" type="hidden">
+                                        <input id="rating49574" value="Very Good" type="hidden">
+                                        <input id="rating59574" value="Excellent" type="hidden">
+                                        <input id="defaultTitle9574" value="Title your review - Describe your stay in one sentence or less. " type="hidden">
+                                        <input id="reviewTitle9574" name="ReviewTitle" type="hidden">
+                                        <div class="widWRLRating">
+                                            <input name="qid10" id="qid109574" value="0" type="hidden">
+                                            <span class="widWRLRate g00" id="ratingSpan" onclick="return selectRating(this, event, true, 9574);" onmousemove="return selectRating(this, event, false, 9574);" onmouseout="return lastSetRating(this, 9574);">
+                                                <img src="https://static.tacdn.com/img2/sprites/ratings-v3.png" id="ratingImg">
+                                            </span><span id="ratingText9574" class="widWRLRatingText">(Click to rate) </span>
+                                        </div>
+                                        <div class="widWRLReview">
+                                            <textarea id="taWRLTitle9574" onfocus="initTextArea(this);" rows="3" cols="30" onkeypress="limitLength(this, 120);">Title your review - Describe your stay in one sentence or less. </textarea>
+                                        </div>
+                                        <div class="widWRLButton">
+                                            <input id="taWRLContinue9574" name="taWRLContinue9574" value="Continue" onclick="checkTextArea(9574);" style="background: url(https://static.tacdn.com/img2/sprites/yellow-button.png) 0 0 repeat-x #EA9523;" type="submit">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <script src="http://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=971&amp;locationId=8263413&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+                        <script src="https://www.tripadvisor.com/WidgetEmbed-cdswritereviewlg?border=true&amp;locationId=8263413&amp;display_version=2&amp;uniq=971&amp;lang=en_US"></script>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="grid_3 gridfooter">
+
+                <div id="text-3" class="widget widget_text">
+                    <h3>OUR OFFICE</h3>
+                    <div class="textwidget">
+                        <p>
+                            <strong>Ho Chi Minh Office</strong><br>
+                            Address: Floor 2, OIIC Building, 248-250 Nguyen Dinh Chieu str, district 3, HCM city<br>
+                            Phone: +84 9 3838 6678<br>
+                            Mail: reservation@atravelmate.com
+                        </p>
+                        <p>
+                            <strong>Hue Office</strong><br>
+                            Address: 33 Vo Thi Sau,Hue City<br>
+                            Phone: +84 5 4393 4455 - +84 5 4393 4456<br>
+                            Mail: hue@deluxegrouptours.vn
+                        </p>
+                        <p>
+                            <strong>Hanoi Office</strong><br>
+                            Address:  8th Floor, 2 Yen The Building, Ba Dinh Dist., Hanoi<br>
+                            Phone: +84 4 3926 3449<br>
+                            Mail: hansales2@atravelmate.com
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="grid_3 gridfooter">
+
+                <div id="nav_menu-3" class="widget widget_nav_menu">
+                    <h3>OUR GROUP TOURS</h3>
+                    <div class="menu-left-navigation-container">
+                        <ul id="menu-left-navigation-1" class="">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-976"><a href="http://www.deluxegrouptours.vn/halong-bay-group-tours/">Halong Bay Group Tours</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-977"><a href="http://www.deluxegrouptours.vn/mekong-delta-group-tours/">Mekong Delta Group Tours</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-978"><a href="http://www.deluxegrouptours.vn/hanoi-group-tours/">Hanoi Group Tours</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-979"><a href="http://www.deluxegrouptours.vn/hue-tours-group/">Hue City Group Tours</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-980"><a href="http://www.deluxegrouptours.vn/ho-chi-minh-city-group-tours/">Ho Chi Minh City Group Tours</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="grid_3 gridfooter">
+
+                <div id="text-5" class="widget widget_text">
+                    <h3>FACEBOOK</h3>
+                    <div class="textwidget">
+                        <div id="fb-root" class=" fb_reset">
+                            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                                <div>
+                                    <iframe name="fb_xdm_frame_http" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="http://staticxx.facebook.com/connect/xd_arbiter/r/Sh-3BhStODe.js?version=42#channel=f149a57297ea4a4&amp;origin=http%3A%2F%2Fwww.deluxegrouptours.vn" frameborder="0"></iframe>
+                                    <iframe name="fb_xdm_frame_https" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="https://staticxx.facebook.com/connect/xd_arbiter/r/Sh-3BhStODe.js?version=42#channel=f149a57297ea4a4&amp;origin=http%3A%2F%2Fwww.deluxegrouptours.vn" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                                <div></div>
+                            </div>
+                        </div>
+                        <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&amp;version=v2.8&amp;appId=734669833249851";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+                        <div class="fb-page fb_iframe_widget" data-tabs="timeline,events,messages" data-href="https://www.facebook.com/deluxegouptours/" data-width="380" data-hide-cover="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=734669833249851&amp;container_width=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fdeluxegouptours%2F&amp;locale=vi_VN&amp;sdk=joey&amp;tabs=timeline%2Cevents%2Cmessages&amp;width=380">
+                            <span style="vertical-align: bottom; width: 280px; height: 500px;">
+                                <iframe name="f3981d572a484be" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" style="border: medium none; visibility: visible; width: 280px; height: 500px;" src="https://www.facebook.com/v2.8/plugins/page.php?app_id=734669833249851&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df2a3b5e89256c56%26domain%3Dwww.deluxegrouptours.vn%26origin%3Dhttp%253A%252F%252Fwww.deluxegrouptours.vn%252Ff149a57297ea4a4%26relation%3Dparent.parent&amp;container_width=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fdeluxegouptours%2F&amp;locale=vi_VN&amp;sdk=joey&amp;tabs=timeline%2Cevents%2Cmessages&amp;width=380" class="" width="380px" height="1000px" frameborder="0"></iframe>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </footer>
+
+    <!--end footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--start copyright-->
+
+    <section id="copyright">
+
+
+
+        <!--start container-->
+
+        <div class="container">
+
+
+
+            <div class="grid_12">
+
+
+                <p>Copyright 2015 by ATRAVELMATE - All Rights Reserved</p>
+
+
+            </div>
+
+
+
+        </div>
+
+        <!--end container-->
+
+
+
+
+
+
+        <div class="backtotop">
+
+            <a href="#startpage">
+                <img alt="" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/img/footer/arrowbacktotop.png"></a>
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <!--end copyright-->
+
+
+
+
+
+
+
+
+
+
+
+    <!--Embed from Zendesk Chat Chat Wordpress Plugin v1.4.4-->
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+        d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+        _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+            $.src='//v2.zopim.com/?2veIAQ3nXkUjZ6lrtmuMs1WfKOV0AS9r';z.t=+new Date;$.
+            type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+  </script>
+    <script>$zopim( function() {
+})</script>
+    <!--End of Zendesk Chat Script-->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://apis.google.com/js/plusone.js?ver=4.7.2" gapi_processed="true"></script>
+    <script type="text/javascript" src="http://platform.linkedin.com/in.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/jquery-ui.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/excanvas.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/scroolto.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/jquery.nicescroll.min.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/jquery.inview.min.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/menu/superfish.min.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/menu/tinynav.min.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/settings.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/menu/hoverIntent.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/isotope/jquery.infinitescroll.min.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/jquery.parallax-1.1.3.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/isotope/jquery.isotope.min.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-content/themes/atravelmate/js/fancybox/jquery.fancybox.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-includes/js/comment-reply.min.js?ver=4.7.2"></script>
+    <script type="text/javascript" src="http://www.deluxegrouptours.vn/wp-includes/js/wp-embed.min.js?ver=4.7.2"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-61159560-1', 'auto');
+        ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+    <div id="ascrail2000" class="nicescroll-rails" style="width: 0px; z-index: 99999; cursor: default; position: fixed; top: 0px; left: -5px; height: 362px; opacity: 1; display: none;">
+        <div style="position: relative; top: 0px; float: right; width: 0px; height: 0px; background-color: rgb(66, 66, 66); border: 0px none; background-clip: padding-box; border-radius: 5px;"></div>
+    </div>
+    <div id="ascrail2000-hr" class="nicescroll-rails" style="height: 0px; z-index: 99999; top: 362px; left: -305px; position: fixed; opacity: 1; cursor: default; display: none;">
+        <div style="position: relative; top: 0px; height: 0px; width: 0px; background-color: rgb(66, 66, 66); border: 0px none; background-clip: padding-box; border-radius: 5px;"></div>
+    </div>
+    <iframe id="rufous-sandbox" scrolling="no" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: medium none;" title="Twitter analytics iframe" frameborder="0"></iframe>
+    <div id="_booktextmark_tab_id_" title="1486010875028" style="visibility: hidden;"></div>
+</body>
+</html>

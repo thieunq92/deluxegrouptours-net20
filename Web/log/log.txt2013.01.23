@@ -1,0 +1,2 @@
+2013-01-23 15:28:21,549 [12] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx
+2013-01-23 15:28:21,584 [4] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx

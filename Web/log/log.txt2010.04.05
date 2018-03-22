@@ -1,0 +1,127 @@
+2010-04-05 16:15:08,980 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'vAgency'.
+2010-04-05 16:15:09,121 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'vAgency'.
+2010-04-05 16:15:09,121 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT count(*) as y0_ FROM vAgency this_ ]
+[SQL: SELECT count(*) as y0_ FROM vAgency this_]
+NHibernate.ADOException: could not execute query
+[ SELECT count(*) as y0_ FROM vAgency this_ ]
+[SQL: SELECT count(*) as y0_ FROM vAgency this_] ---> System.Data.SqlClient.SqlException: Invalid object name 'vAgency'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.CountObjectByCriterion(Type objectType, ICriterion criterion) in D:\Working\CMS\OrientalSails\Core\DataAccess\CommonDao.cs:line 213
+2010-04-05 16:15:09,402 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'vAgency'.
+2010-04-05 16:15:09,402 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'vAgency'.
+2010-04-05 16:15:09,402 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id69_0_, this_.Name as Name69_0_, this_.Phone as Phone69_0_, this_.Address as Address69_0_, this_.RoleId as RoleId69_0_, this_.SaleId as SaleId69_0_, this_.Fax as Fax69_0_, this_.TaxCode as TaxCode69_0_, this_.Email as Email69_0_, this_.ContractStatus as Contrac10_69_0_, this_.Accountant as Accountant69_0_, this_.PaymentPeriod as Payment12_69_0_, this_.LastBooking as LastBoo13_69_0_ FROM vAgency this_ ORDER BY this_.Name asc ]
+[SQL: SELECT this_.Id as Id69_0_, this_.Name as Name69_0_, this_.Phone as Phone69_0_, this_.Address as Address69_0_, this_.RoleId as RoleId69_0_, this_.SaleId as SaleId69_0_, this_.Fax as Fax69_0_, this_.TaxCode as TaxCode69_0_, this_.Email as Email69_0_, this_.ContractStatus as Contrac10_69_0_, this_.Accountant as Accountant69_0_, this_.PaymentPeriod as Payment12_69_0_, this_.LastBooking as LastBoo13_69_0_ FROM vAgency this_ ORDER BY this_.Name asc]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id69_0_, this_.Name as Name69_0_, this_.Phone as Phone69_0_, this_.Address as Address69_0_, this_.RoleId as RoleId69_0_, this_.SaleId as SaleId69_0_, this_.Fax as Fax69_0_, this_.TaxCode as TaxCode69_0_, this_.Email as Email69_0_, this_.ContractStatus as Contrac10_69_0_, this_.Accountant as Accountant69_0_, this_.PaymentPeriod as Payment12_69_0_, this_.LastBooking as LastBoo13_69_0_ FROM vAgency this_ ORDER BY this_.Name asc ]
+[SQL: SELECT this_.Id as Id69_0_, this_.Name as Name69_0_, this_.Phone as Phone69_0_, this_.Address as Address69_0_, this_.RoleId as RoleId69_0_, this_.SaleId as SaleId69_0_, this_.Fax as Fax69_0_, this_.TaxCode as TaxCode69_0_, this_.Email as Email69_0_, this_.ContractStatus as Contrac10_69_0_, this_.Accountant as Accountant69_0_, this_.PaymentPeriod as Payment12_69_0_, this_.LastBooking as LastBoo13_69_0_ FROM vAgency this_ ORDER BY this_.Name asc] ---> System.Data.SqlClient.SqlException: Invalid object name 'vAgency'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterionPaged(Type objectType, ICriterion criterion, Int32 pageIndex, Int32 pageSize, Order[] orders) in D:\Working\CMS\OrientalSails\Core\DataAccess\CommonDao.cs:line 192
+2010-04-05 17:37:47,277 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PermissionId'.
+Invalid column name 'PermissionId'.
+2010-04-05 17:37:47,496 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PermissionId'.
+Invalid column name 'PermissionId'.
+2010-04-05 17:37:47,496 [4] ERROR NHibernate.Collection.AbstractPersistentCollection [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.ADOException: could not initialize a collection: [CMS.Core.Domain.ModuleType.ModulePermissions#12][SQL: SELECT moduleperm0_.moduletypeid as modulety5___1_, moduleperm0_.PermissionId as Permissi1_1_, moduleperm0_.PermissionId as Permissi1_20_0_, moduleperm0_.PermissionName as Permissi2_20_0_, moduleperm0_.GroupName as GroupName20_0_, moduleperm0_.ModuleTypeId as ModuleTy4_20_0_ FROM bitportal_modulepermission moduleperm0_ WHERE moduleperm0_.moduletypeid=? ORDER BY moduleperm0_.GroupName] ---> System.Data.SqlClient.SqlException: Invalid column name 'PermissionId'.
+Invalid column name 'PermissionId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+2010-04-05 17:37:47,542 [4] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.LazyInitializationException: Failed to lazily initialize a collection ---> NHibernate.ADOException: could not initialize a collection: [CMS.Core.Domain.ModuleType.ModulePermissions#12][SQL: SELECT moduleperm0_.moduletypeid as modulety5___1_, moduleperm0_.PermissionId as Permissi1_1_, moduleperm0_.PermissionId as Permissi1_20_0_, moduleperm0_.PermissionName as Permissi2_20_0_, moduleperm0_.GroupName as GroupName20_0_, moduleperm0_.ModuleTypeId as ModuleTy4_20_0_ FROM bitportal_modulepermission moduleperm0_ WHERE moduleperm0_.moduletypeid=? ORDER BY moduleperm0_.GroupName] ---> System.Data.SqlClient.SqlException: Invalid column name 'PermissionId'.
+Invalid column name 'PermissionId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+   --- End of inner exception stack trace ---

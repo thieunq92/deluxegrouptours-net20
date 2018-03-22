@@ -1,0 +1,9 @@
+2010-04-10 08:09:39,125 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+NHibernate.ObjectNotFoundException: No row with the given identifier exists: 56, of class: Portal.Modules.OrientalSails.Domain.Booking
+   at NHibernate.Proxy.LazyInitializer.CheckTargetState()
+   at NHibernate.Proxy.LazyInitializer.Initialize()
+   at NHibernate.Proxy.LazyInitializer.GetImplementation()
+   at NHibernate.Proxy.CastleLazyInitializer.Intercept(IInvocation invocation, Object[] args)
+   at CProxyTypePortal_Modules_OrientalSails_DomainBookingDomain_NHibernate_ProxyINHibernateProxy1.get_Total()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)

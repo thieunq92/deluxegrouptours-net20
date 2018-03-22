@@ -1,0 +1,44 @@
+2014-01-26 08:59:27,897 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2014-01-26 08:59:27,918 [6] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?
+2014-01-26 09:45:33,770 [14] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+2014-01-26 09:45:33,818 [14] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+2014-01-26 09:45:33,819 [14] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.ValidFrom as ValidFrom86_0_, this_.ValidTo as ValidTo86_0_, this_.TripOption as TripOption86_0_, this_.TripId as TripId86_0_ FROM os_CostingTable this_ WHERE (this_.ValidFrom <= ? and this_.TripId = ?) ORDER BY this_.ValidFrom desc ]
+Positional parameters:   0 1/1/2014 12:00:00 AM
+  0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.ValidFrom as ValidFrom86_0_, this_.ValidTo as ValidTo86_0_, this_.TripOption as TripOption86_0_, this_.TripId as TripId86_0_ FROM os_CostingTable this_ WHERE (this_.ValidFrom <= ? and this_.TripId = ?) ORDER BY this_.ValidFrom desc]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.ValidFrom as ValidFrom86_0_, this_.ValidTo as ValidTo86_0_, this_.TripOption as TripOption86_0_, this_.TripId as TripId86_0_ FROM os_CostingTable this_ WHERE (this_.ValidFrom <= ? and this_.TripId = ?) ORDER BY this_.ValidFrom desc ]
+Positional parameters:   0 1/1/2014 12:00:00 AM
+  0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.ValidFrom as ValidFrom86_0_, this_.ValidTo as ValidTo86_0_, this_.TripOption as TripOption86_0_, this_.TripId as TripId86_0_ FROM os_CostingTable this_ WHERE (this_.ValidFrom <= ? and this_.TripId = ?) ORDER BY this_.ValidFrom desc] ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterionPaged(Type objectType, ICriterion criterion, Int32 pageIndex, Int32 pageSize, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 195

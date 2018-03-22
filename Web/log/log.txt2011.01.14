@@ -1,0 +1,21 @@
+2011-01-14 11:07:47,850 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)
+2011-01-14 11:07:58,383 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)
+2011-01-14 11:08:26,331 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)

@@ -1,0 +1,10 @@
+2016-03-03 11:35:26,073 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2016-03-03 11:35:26,091 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2016-03-03 11:38:39,401 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/
+2016-03-03 11:38:39,401 [10] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/
+2016-03-03 11:39:22,911 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e)
+2016-03-03 17:18:32,897 [12] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2016-03-03 17:18:32,904 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?

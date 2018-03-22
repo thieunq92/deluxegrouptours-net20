@@ -1,0 +1,10 @@
+2014-11-05 09:28:02,003 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-05 09:28:11,395 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)

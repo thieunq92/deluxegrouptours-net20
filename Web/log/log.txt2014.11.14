@@ -1,0 +1,322 @@
+2014-11-14 09:11:10,453 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?
+2014-11-14 09:11:10,457 [13] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2014-11-14 09:21:02,221 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 09:21:17,871 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 09:21:27,484 [15] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 09:44:36,234 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 10:55:34,886 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:05:35,066 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:24:20,113 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:26:14,454 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:26:34,457 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:26:48,129 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:28:02,774 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:32:34,679 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:51:07,533 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:51:38,059 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:52:21,622 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 11:55:15,884 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 13:41:07,077 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 13:53:13,612 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:05:58,921 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:08:20,484 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:14:48,760 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:14:55,416 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:15:37,451 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:16:20,528 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:22:33,402 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:22:38,128 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 14:25:26,457 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 15:21:21,798 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 15:21:30,921 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 15:21:36,988 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 15:21:44,720 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 15:21:52,437 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 15:31:35,968 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 16:02:27,803 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 16:47:32,631 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 17:01:28,406 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 17:01:39,497 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 17:01:48,509 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 17:02:03,692 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-14 17:02:11,219 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)

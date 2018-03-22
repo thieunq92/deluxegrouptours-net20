@@ -1,0 +1,64 @@
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Web\Albums.ascx
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Web\Albums.ascx.cs
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Castle.Windsor.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Lucene.Net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\itextsharp.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.Web.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Web\Albums.ascx
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Web\Albums.ascx.cs
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.Web.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\obj\Debug\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\CMS.Modules.Gallery\bin\Debug\sv\CMS.Web.resources.dll

@@ -1,0 +1,89 @@
+2013-04-26 09:00:02,606 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)
+2013-04-26 09:00:13,827 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)
+2013-04-26 09:00:21,073 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)
+2013-04-26 09:12:03,879 [11] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+NHibernate.QueryException: could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.CountObjectByCriterion(Type objectType, ICriterion criterion) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 214
+2013-04-26 09:12:23,070 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+NHibernate.QueryException: could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.CountObjectByCriterion(Type objectType, ICriterion criterion) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 214
+2013-04-26 09:12:25,604 [11] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+NHibernate.QueryException: could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.CountObjectByCriterion(Type objectType, ICriterion criterion) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 214
+2013-04-26 09:12:37,562 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+NHibernate.QueryException: could not resolve property: trip of: Portal.Modules.OrientalSails.Domain.Booking
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.CountObjectByCriterion(Type objectType, ICriterion criterion) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 214

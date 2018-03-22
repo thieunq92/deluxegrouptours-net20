@@ -1,0 +1,807 @@
+2014-11-09 06:31:04,034 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 06:31:04,053 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 06:31:04,054 [9] ERROR NHibernate.Collection.AbstractPersistentCollection [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+2014-11-09 06:31:04,098 [9] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.LazyInitializationException: Failed to lazily initialize a collection ---> NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+   --- End of inner exception stack trace ---
+2014-11-09 08:44:42,204 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:44:42,626 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:44:42,626 [5] ERROR NHibernate.Collection.AbstractPersistentCollection [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+2014-11-09 08:44:42,889 [5] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.LazyInitializationException: Failed to lazily initialize a collection ---> NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+   --- End of inner exception stack trace ---
+2014-11-09 08:56:35,076 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:56:35,101 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:56:35,109 [5] ERROR NHibernate.Collection.AbstractPersistentCollection [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+2014-11-09 08:56:35,113 [5] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.LazyInitializationException: Failed to lazily initialize a collection ---> NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+   --- End of inner exception stack trace ---
+2014-11-09 08:57:21,296 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:57:21,300 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:57:21,401 [9] ERROR NHibernate.Collection.AbstractPersistentCollection [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+2014-11-09 08:57:21,422 [9] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.LazyInitializationException: Failed to lazily initialize a collection ---> NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+   --- End of inner exception stack trace ---
+2014-11-09 08:58:12,128 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:58:12,132 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:58:12,138 [9] ERROR NHibernate.Collection.AbstractPersistentCollection [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+2014-11-09 08:58:12,139 [9] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.LazyInitializationException: Failed to lazily initialize a collection ---> NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+   --- End of inner exception stack trace ---
+2014-11-09 08:58:24,890 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:58:24,891 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 08:58:24,892 [9] ERROR NHibernate.Collection.AbstractPersistentCollection [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+2014-11-09 08:58:24,893 [9] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Failed to lazily initialize a collection
+NHibernate.LazyInitializationException: Failed to lazily initialize a collection ---> NHibernate.ADOException: could not initialize a collection: [Portal.Modules.OrientalSails.Domain.SailsTrip.SailsPriceConfigs#2][SQL: SELECT sailsprice0_.TripId as TripId__1_, sailsprice0_.Id as Id1_, sailsprice0_.Id as Id86_0_, sailsprice0_.TripOption as TripOption86_0_, sailsprice0_.PriceAdultVND as PriceAdu3_86_0_, sailsprice0_.PriceAdultUSD as PriceAdu4_86_0_, sailsprice0_.PriceChildVND as PriceChi5_86_0_, sailsprice0_.PriceChildUSD as PriceChi6_86_0_, sailsprice0_.PriceBabyVND as PriceBab7_86_0_, sailsprice0_.PriceBabyUSD as PriceBab8_86_0_, sailsprice0_.SpecialPrice as SpecialP9_86_0_, sailsprice0_.RoomClassId as RoomCla10_86_0_, sailsprice0_.RoomTypeId as RoomTypeId86_0_, sailsprice0_.TripId as TripId86_0_, sailsprice0_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig sailsprice0_ WHERE sailsprice0_.TripId=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadCollection(ISessionImplementor session, Object id, IType type)
+   at NHibernate.Loader.Collection.CollectionLoader.Initialize(Object id, ISessionImplementor session)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Initialize(Object key, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.InitializeCollection(IPersistentCollection collection, Boolean writing)
+   at NHibernate.Collection.AbstractPersistentCollection.Initialize(Boolean writing)
+   --- End of inner exception stack trace ---
+2014-11-09 09:22:01,315 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:22:01,333 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:22:01,333 [11] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 152
+2014-11-09 09:22:19,787 [12] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:22:19,787 [12] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:22:19,787 [12] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 152
+2014-11-09 09:23:37,909 [14] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:23:37,913 [14] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:23:37,923 [14] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 152
+2014-11-09 09:38:41,427 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:38:41,452 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 09:38:41,453 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 152
+2014-11-09 10:04:41,751 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 10:04:41,760 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 10:04:41,773 [13] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 152
+2014-11-09 10:28:35,526 [12] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 10:28:35,527 [12] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 10:28:35,527 [12] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 152
+2014-11-09 10:28:58,170 [12] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 10:28:58,170 [12] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+2014-11-09 10:28:58,170 [12] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ? ]
+Positional parameters:   0 Portal.Modules.OrientalSails.Domain.SailsTrip
+[SQL: SELECT this_.Id as Id86_0_, this_.TripOption as TripOption86_0_, this_.PriceAdultVND as PriceAdu3_86_0_, this_.PriceAdultUSD as PriceAdu4_86_0_, this_.PriceChildVND as PriceChi5_86_0_, this_.PriceChildUSD as PriceChi6_86_0_, this_.PriceBabyVND as PriceBab7_86_0_, this_.PriceBabyUSD as PriceBab8_86_0_, this_.SpecialPrice as SpecialP9_86_0_, this_.RoomClassId as RoomCla10_86_0_, this_.RoomTypeId as RoomTypeId86_0_, this_.TripId as TripId86_0_, this_.PriceTableId as PriceTa13_86_0_ FROM os_SailsPriceConfig this_ WHERE this_.TripId = ?] ---> System.Data.SqlClient.SqlException: Invalid column name 'PriceAdultVND'.
+Invalid column name 'PriceAdultUSD'.
+Invalid column name 'PriceChildVND'.
+Invalid column name 'PriceChildUSD'.
+Invalid column name 'PriceBabyVND'.
+Invalid column name 'PriceBabyUSD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 152

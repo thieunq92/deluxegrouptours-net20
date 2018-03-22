@@ -1,0 +1,12 @@
+2016-08-11 10:07:00,513 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2016-08-11 10:07:00,531 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2016-08-11 10:09:36,087 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2016-08-11 10:09:36,087 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2016-08-11 10:10:35,533 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/
+2016-08-11 10:10:35,656 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/
+2016-08-11 10:11:47,081 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e)
+2016-08-11 14:03:16,083 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2016-08-11 14:03:16,090 [9] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?

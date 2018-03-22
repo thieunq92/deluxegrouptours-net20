@@ -1,0 +1,1097 @@
+2013-06-06 14:08:09,664 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:08:11,160 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:08:11,172 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:08:18,128 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:08:18,972 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:08:18,979 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:11:36,530 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:11:48,729 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:11:48,738 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:13:15,351 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:13:24,436 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:13:24,445 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:13:32,534 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:13:56,038 [4] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:14:00,719 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:14:06,254 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:14:13,669 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:14:16,072 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:14:27,951 [7] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:14:49,138 [7] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:14:49,140 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:16:26,662 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:16:28,012 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:16:28,013 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:16:35,464 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:16:36,192 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator
+NHibernate.PropertyAccessException: The type System.String can not be assigned to a property of type CMS.Core.Domain.User setter of Portal.Modules.OrientalSails.Domain.SailExpense.Operator ---> System.ArgumentException: Object of type 'System.String' cannot be converted to type 'CMS.Core.Domain.User'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at NHibernate.Property.BasicSetter.Set(Object target, Object value)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.SetPropertyValues(Object obj, Object[] values)
+   at NHibernate.Impl.SessionImpl.InitializeEntity(Object obj)
+   at NHibernate.Loader.Loader.InitializeEntitiesAndCollections(IList hydratedObjects, Object resultSetId, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:16:36,194 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, SailsTrip cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:16:59,542 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:16:59,575 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:16:59,576 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:16:59,732 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:17:53,798 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:17:53,804 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:17:53,818 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:17:53,825 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:18:12,246 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:18:12,252 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:18:12,272 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:18:12,279 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:18:52,055 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:18:52,062 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:18:52,074 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:19:27,399 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:19:44,862 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:19:44,870 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:19:44,886 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:19:46,858 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:20:18,259 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:20:18,267 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:20:18,282 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:20:23,684 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:21:01,611 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:21:01,620 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+2013-06-06 14:21:29,613 [7] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.OperatorName as Operator5_85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorName'.
+Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:21:29,615 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:22:25,175 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:22:25,207 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:22:25,208 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:22:25,214 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:22:46,944 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:22:46,944 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:22:46,944 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:22:46,949 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:25:06,694 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:25:06,694 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:25:06,694 [7] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:25:06,695 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:26:27,206 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:26:27,234 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:26:27,249 [7] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:26:29,038 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2013-06-06 14:26:48,268 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:26:48,275 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'OperatorId'.
+2013-06-06 14:46:49,374 [8] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)]
+NHibernate.ADOException: could not execute query
+[ SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?) ]
+Positional parameters:   0 3/1/2013 12:00:00 AM
+[SQL: SELECT this_.Id as Id85_1_, this_.Date as Date85_1_, this_.LockIncome as LockIncome85_1_, this_.LockOutcome as LockOutc4_85_1_, this_.Operator as Operator85_1_, this_.OperatorId as OperatorId85_1_, this_.OperatorPhone as Operator7_85_1_, this_.CruiseId as CruiseId85_1_, this_.SaleInCharge as SaleInCh9_85_1_, sailexpens2_.Id as Id79_0_, sailexpens2_.ExpenseId as ExpenseId79_0_, sailexpens2_.Transfer as Transfer79_0_, sailexpens2_.Ticket as Ticket79_0_, sailexpens2_.Guide as Guide79_0_, sailexpens2_.Meal as Meal79_0_, sailexpens2_.Kayaing as Kayaing79_0_, sailexpens2_.ServiceSupplement as ServiceS8_79_0_, sailexpens2_.Cruise as Cruise79_0_, sailexpens2_.Others as Others79_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId is null and this_.Date = ?)] ---> System.Data.SqlClient.SqlException: Invalid column name 'OperatorId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2013-06-06 14:46:49,396 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(SailsTrip trip, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)

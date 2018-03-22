@@ -1,0 +1,22 @@
+2010-11-10 09:40:59,936 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - Type mismatch in NHibernate.Expression.EqExpression: Cruise expected type Portal.Modules.OrientalSails.Domain.Cruise, actual type CProxyTypePortal_Modules_OrientalSails_DomainSailsTripDomain_NHibernate_ProxyINHibernateProxy1
+NHibernate.QueryException: Type mismatch in NHibernate.Expression.EqExpression: Cruise expected type Portal.Modules.OrientalSails.Domain.Cruise, actual type CProxyTypePortal_Modules_OrientalSails_DomainSailsTripDomain_NHibernate_ProxyINHibernateProxy1
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150
+2010-11-10 09:41:34,416 [9] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - Type mismatch in NHibernate.Expression.EqExpression: Cruise expected type Portal.Modules.OrientalSails.Domain.Cruise, actual type CProxyTypePortal_Modules_OrientalSails_DomainSailsTripDomain_NHibernate_ProxyINHibernateProxy1
+NHibernate.QueryException: Type mismatch in NHibernate.Expression.EqExpression: Cruise expected type Portal.Modules.OrientalSails.Domain.Cruise, actual type CProxyTypePortal_Modules_OrientalSails_DomainSailsTripDomain_NHibernate_ProxyINHibernateProxy1
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 150

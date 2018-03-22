@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Portal.Modules.OrientalSails.Domain.BookingHistory, Portal.Modules.OrientalSails" table="os_BookingHistory">
+		<id name="Id" type="Int32" unsaved-value="0">
+			<column name="Id" length="4" sql-type="int" not-null="true" unique="true" index="PK__os_Customer__59FA5E80"/>
+			<generator class="native" />
+		</id>
+    <property name="Date" type="DateTime">
+      <column name="Date" sql-type="datetime" not-null="false"/>
+    </property>
+    <property name="StartDate" type="DateTime">
+      <column name="StartDate" sql-type="datetime" not-null="false"/>
+    </property>
+    <many-to-one name="Booking" class="Portal.Modules.OrientalSails.Domain.Booking, Portal.Modules.OrientalSails">
+      <column name="BookingId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <many-to-one name="User" class="CMS.Core.Domain.User, CMS.Core">
+      <column name="UserId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <many-to-one name="Trip" class="Portal.Modules.OrientalSails.Domain.SailsTrip, Portal.Modules.OrientalSails">
+      <column name="TripId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <many-to-one name="Agency" class="Portal.Modules.OrientalSails.Domain.Agency, Portal.Modules.OrientalSails">
+      <column name="AgencyId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <property name="Status" type="Portal.Modules.OrientalSails.Web.Util.StatusType, Portal.Modules.OrientalSails">
+      <column name="Status" length="4" sql-type="int" not-null="false"/>
+    </property>
+    <property name="Total" type="Double">
+      <column name="Total" sql-type="money" not-null="false"/>
+    </property>
+    <property name="TotalCurrency" type="string">
+      <column name="TotalCurrency" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="SpecialRequest" type="string">
+      <column name="SpecialRequest" sql-type="nvarchar" not-null="false"/>
+    </property>
+  </class>
+</hibernate-mapping>

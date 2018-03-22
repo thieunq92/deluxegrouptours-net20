@@ -1,0 +1,12 @@
+2013-05-17 16:24:24,783 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2013-05-17 16:24:57,443 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2013-05-17 16:30:08,984 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2013-05-17 16:31:41,737 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)

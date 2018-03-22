@@ -1,0 +1,20 @@
+2010-10-12 11:38:07,748 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2010-10-12 11:39:21,683 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2010-10-12 11:41:12,199 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2010-10-12 11:41:28,513 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2010-10-12 11:42:02,625 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)
+2010-10-12 11:59:27,595 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when buttonSubmit_Click in BookingView
+System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at System.Enum.Parse(Type enumType, String value)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.buttonSubmit_Click(Object sender, EventArgs e)

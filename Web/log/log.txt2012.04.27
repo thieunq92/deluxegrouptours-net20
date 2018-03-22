@@ -1,0 +1,38 @@
+2012-04-27 20:01:32,316 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Violation of PRIMARY KEY constraint 'PK__os_Booking__4A8310C6'. Cannot insert duplicate key in object 'dbo.os_Booking'.
+The statement has been terminated.
+2012-04-27 20:02:10,224 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.AddBooking [(null)] <(null)> - could not insert: [Portal.Modules.OrientalSails.Domain.Booking][SQL: INSERT INTO os_Booking (Deleted, IsApproved, CreatedBy, CreatedDate, ModifiedBy, ModifiedDate, ConfirmedBy, PartnerId, SaleId, StartDate, EndDate, CustomBookingId, Amended, Status, AccountingStatus, AgencyCode, TripOption, Total, Commission, ComUSDpayed, ComVNDPayed, ComRate, ComPaid, TransferCost, IsTransferred, Paid, Note, PickupAddress, DropoffAddress, SpecialRequest, BookerId, CurrencyRate, PaidBase, IsPaid, IsPaymentNeeded, IsCharter, TransferAdult, TransferChildren, TransferBaby, Invoice, CancelPay, GuideOnboard, Guide, Driver, TripId, CruiseId, AgencyId, TransferTo, LockedId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+NHibernate.ADOException: could not insert: [Portal.Modules.OrientalSails.Domain.Booking][SQL: INSERT INTO os_Booking (Deleted, IsApproved, CreatedBy, CreatedDate, ModifiedBy, ModifiedDate, ConfirmedBy, PartnerId, SaleId, StartDate, EndDate, CustomBookingId, Amended, Status, AccountingStatus, AgencyCode, TripOption, Total, Commission, ComUSDpayed, ComVNDPayed, ComRate, ComPaid, TransferCost, IsTransferred, Paid, Note, PickupAddress, DropoffAddress, SpecialRequest, BookerId, CurrencyRate, PaidBase, IsPaid, IsPaymentNeeded, IsCharter, TransferAdult, TransferChildren, TransferBaby, Invoice, CancelPay, GuideOnboard, Guide, Driver, TripId, CruiseId, AgencyId, TransferTo, LockedId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)] ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK__os_Booking__4A8310C6'. Cannot insert duplicate key in object 'dbo.os_Booking'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Impl.ScheduledIdentityInsertion.Execute()
+   at NHibernate.Impl.SessionImpl.Execute(IExecutable executable)
+   at NHibernate.Impl.SessionImpl.DoSave(Object theObj, EntityKey key, IEntityPersister persister, Boolean replicate, Boolean useIdentityColumn, CascadingAction cascadeAction, Object anything)
+   at NHibernate.Impl.SessionImpl.DoSave(Object obj, Object id, IEntityPersister persister, Boolean useIdentityColumn, CascadingAction cascadeAction, Object anything)
+   at NHibernate.Impl.SessionImpl.SaveWithGeneratedIdentifier(Object obj, CascadingAction action, Object anything)
+   at NHibernate.Impl.SessionImpl.Save(Object obj)
+   at Castle.Facilities.NHibernateIntegration.SessionDelegate.Save(Object obj)
+   at CMS.Core.DataAccess.CommonDao.SaveObject(Object obj) in D:\Working\Source\ATMBooking\Core\DataAccess\CommonDao.cs:line 96
+   at ICommonDaoProxy082cc7bca2194bae9a7724cfcb6713e8.InvocationSaveObject_9.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Facilities.AutomaticTransactionManagement.TransactionInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at ICommonDaoProxy082cc7bca2194bae9a7724cfcb6713e8.SaveObject(Object obj)
+   at Portal.Modules.OrientalSails.SailsModule.Save(Booking booking)
+   at Portal.Modules.OrientalSails.Web.Admin.AddBooking.btnSave_Click(Object sender, EventArgs e)

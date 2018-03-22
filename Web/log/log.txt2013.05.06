@@ -1,0 +1,57 @@
+2013-05-06 14:58:49,949 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+System.ArgumentNullException: Value cannot be null.
+Parameter name: propName
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at CMS.ServerControls.CascadingDropDown.OnDataBinding(EventArgs e) in D:\Working\Source\ATMBooking\ServerControls\CascadingDropDown.cs:line 119
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.BindTrips()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)
+2013-05-06 14:59:33,007 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+System.ArgumentNullException: Value cannot be null.
+Parameter name: propName
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at CMS.ServerControls.CascadingDropDown.OnDataBinding(EventArgs e) in D:\Working\Source\ATMBooking\ServerControls\CascadingDropDown.cs:line 119
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.BindTrips()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)
+2013-05-06 15:00:20,570 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+System.ArgumentNullException: Value cannot be null.
+Parameter name: propName
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at CMS.ServerControls.CascadingDropDown.OnDataBinding(EventArgs e) in D:\Working\Source\ATMBooking\ServerControls\CascadingDropDown.cs:line 119
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.BindTrips()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)
+2013-05-06 15:00:37,629 [4] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+System.ArgumentNullException: Value cannot be null.
+Parameter name: propName
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at CMS.ServerControls.CascadingDropDown.OnDataBinding(EventArgs e) in D:\Working\Source\ATMBooking\ServerControls\CascadingDropDown.cs:line 119
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.BindTrips()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)
+2013-05-06 15:00:56,868 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+System.ArgumentNullException: Value cannot be null.
+Parameter name: propName
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at CMS.ServerControls.CascadingDropDown.OnDataBinding(EventArgs e) in D:\Working\Source\ATMBooking\ServerControls\CascadingDropDown.cs:line 119
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.BindTrips()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)
+2013-05-06 15:06:00,573 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)

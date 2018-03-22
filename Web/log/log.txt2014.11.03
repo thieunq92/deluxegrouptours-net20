@@ -1,0 +1,6 @@
+2014-11-03 11:20:13,935 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+2014-11-03 11:20:14,726 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+2014-11-03 11:21:14,965 [13] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/
+2014-11-03 11:21:14,968 [16] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/
+2014-11-03 11:25:20,009 [18] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/
+2014-11-03 11:25:20,040 [18] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/

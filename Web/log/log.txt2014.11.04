@@ -1,0 +1,18 @@
+2014-11-04 10:36:59,647 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.OrderReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: L?i x?y ra do h? th?ng chua nâng c?p d?y d?, hãy báo ngay cho administrator d? s?a l?i này!
+   at Portal.Modules.OrientalSails.SailsModule.GenerateOrgCriterion(Boolean tripped, User user)
+   at Portal.Modules.OrientalSails.SailsModule.BookingGetByCriterion(ICriterion criterion, Order order, Int32& count, Int32 pageSize, Int32 pageIndex, Boolean tripped, User user)
+   at Portal.Modules.OrientalSails.Web.Admin.OrderReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.OrderReport.Page_Load(Object sender, EventArgs e)
+2014-11-04 10:38:04,541 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.OrderReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: L?i x?y ra do h? th?ng chua nâng c?p d?y d?, hãy báo ngay cho administrator d? s?a l?i này!
+   at Portal.Modules.OrientalSails.SailsModule.GenerateOrgCriterion(Boolean tripped, User user)
+   at Portal.Modules.OrientalSails.SailsModule.BookingGetByCriterion(ICriterion criterion, Order order, Int32& count, Int32 pageSize, Int32 pageIndex, Boolean tripped, User user)
+   at Portal.Modules.OrientalSails.Web.Admin.OrderReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.OrderReport.Page_Load(Object sender, EventArgs e)
+2014-11-04 10:39:06,379 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.OrderReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: L?i x?y ra do h? th?ng chua nâng c?p d?y d?, hãy báo ngay cho administrator d? s?a l?i này!
+   at Portal.Modules.OrientalSails.SailsModule.GenerateOrgCriterion(Boolean tripped, User user)
+   at Portal.Modules.OrientalSails.SailsModule.BookingGetByCriterion(ICriterion criterion, Order order, Int32& count, Int32 pageSize, Int32 pageIndex, Boolean tripped, User user)
+   at Portal.Modules.OrientalSails.Web.Admin.OrderReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.OrderReport.Page_Load(Object sender, EventArgs e)

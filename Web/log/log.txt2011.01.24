@@ -1,0 +1,4 @@
+2011-01-24 09:32:07,235 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2011-01-24 09:32:07,281 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2011-01-24 09:33:09,096 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2011-01-24 09:33:09,127 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.

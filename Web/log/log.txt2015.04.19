@@ -1,0 +1,14 @@
+2015-04-19 15:56:24,007 [6] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2015-04-19 15:56:24,011 [10] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?
+2015-04-19 20:06:25,391 [10] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2015-04-19 20:06:25,392 [8] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?
+2015-04-19 21:28:19,020 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2015-04-19 21:28:19,031 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+2015-04-19 21:28:40,709 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2015-04-19 21:28:40,709 [13] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+2015-04-19 22:09:30,559 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+2015-04-19 22:09:30,885 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+2015-04-19 22:09:30,909 [6] ERROR CMS.Web.HttpModules.AuthenticationModule [(null)] <(null)> - An error occured while logging in user admin.
+2015-04-19 22:10:56,501 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2015-04-19 22:10:56,501 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2015-04-19 22:10:56,501 [6] ERROR CMS.Web.HttpModules.AuthenticationModule [(null)] <(null)> - An error occured while logging in user admin.

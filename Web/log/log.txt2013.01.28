@@ -1,0 +1,9 @@
+2013-01-28 10:13:53,146 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2013-01-28 10:13:53,165 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+2013-01-28 17:34:10,064 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit [(null)] <(null)> - Error when Page_Load in SailsTripEdit
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at CMS.ServerControls.FileUpload.FileUploaderAJAX.addCustomJS(customJSevent JSevent, String JS) in D:\Working\Source\ATMBooking\ServerControls\FileUpload\FileUploaderAJAX.cs:line 507
+   at Portal.Modules.OrientalSails.Web.Admin.SailsTripEdit.Page_Load(Object sender, EventArgs e)

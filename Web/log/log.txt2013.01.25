@@ -1,0 +1,6 @@
+2013-01-25 16:13:25,072 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'SaleInCharge'.
+2013-01-25 16:13:25,216 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'SaleInCharge'.
+2013-01-25 16:22:15,082 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2013-01-25 16:22:15,100 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Login failed for user 'sa'.
+2013-01-25 16:22:18,744 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2013-01-25 16:22:18,744 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Login failed for user 'sa'.

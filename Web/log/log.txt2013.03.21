@@ -1,0 +1,2 @@
+2013-03-21 09:46:59,154 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Column "os_Expense.Date" is invalid in the ORDER BY clause because it is not contained in either an aggregate function or the GROUP BY clause.
+2013-03-21 09:46:59,185 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Column "os_Expense.Date" is invalid in the ORDER BY clause because it is not contained in either an aggregate function or the GROUP BY clause.

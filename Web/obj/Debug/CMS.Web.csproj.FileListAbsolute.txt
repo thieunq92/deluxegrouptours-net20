@@ -1,0 +1,405 @@
+D:\Working\Source\ATMBooking\Web\bin\CMS.Web.dll
+D:\Working\Source\ATMBooking\Web\bin\CMS.Web.pdb
+D:\Working\Source\ATMBooking\Web\bin\nl\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Web\bin\it\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Web\bin\sv\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Web\bin\AjaxControlToolkit.dll
+D:\Working\Source\ATMBooking\Web\bin\Castle.Core.dll
+D:\Working\Source\ATMBooking\Web\bin\Castle.MicroKernel.dll
+D:\Working\Source\ATMBooking\Web\bin\Castle.Windsor.dll
+D:\Working\Source\ATMBooking\Web\bin\CMS.Core.dll
+D:\Working\Source\ATMBooking\Web\bin\CMS.ServerControls.dll
+D:\Working\Source\ATMBooking\Web\bin\FredCK.FCKeditorV2.dll
+D:\Working\Source\ATMBooking\Web\bin\GemBox.Spreadsheet.dll
+D:\Working\Source\ATMBooking\Web\bin\itextsharp.dll
+D:\Working\Source\ATMBooking\Web\bin\log4net.dll
+D:\Working\Source\ATMBooking\Web\bin\MetaBuilders.WebControls.dll
+D:\Working\Source\ATMBooking\Web\bin\NPOI.dll
+D:\Working\Source\ATMBooking\Web\bin\System.Web.Extensions.dll
+D:\Working\Source\ATMBooking\Web\bin\Castle.Services.Transaction.dll
+D:\Working\Source\ATMBooking\Web\bin\NHibernate.dll
+D:\Working\Source\ATMBooking\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Working\Source\ATMBooking\Web\bin\Lucene.Net.dll
+D:\Working\Source\ATMBooking\Web\bin\System.Web.Extensions.Design.dll
+D:\Working\Source\ATMBooking\Web\bin\Castle.DynamicProxy2.dll
+D:\Working\Source\ATMBooking\Web\bin\Iesi.Collections.dll
+D:\Working\Source\ATMBooking\Web\bin\Castle.DynamicProxy.dll
+D:\Working\Source\ATMBooking\Web\bin\CMS.Core.pdb
+D:\Working\Source\ATMBooking\Web\bin\CMS.ServerControls.pdb
+D:\Working\Source\ATMBooking\Web\bin\GemBox.Spreadsheet.xml
+D:\Working\Source\ATMBooking\Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin._Default.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Users.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Register.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Error.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Global.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Install.Install.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Login.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Profile.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Rss.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+D:\Working\Source\ATMBooking\Web\obj\Debug\ResGen.read.1.tlog
+D:\Working\Source\ATMBooking\Web\obj\Debug\ResGen.write.1.tlog
+D:\Working\Source\ATMBooking\Web\obj\Debug\nl\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Web\obj\Debug\it\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Web\obj\Debug\sv\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.dll
+D:\Working\Source\ATMBooking\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\NPOI.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\ATMBooking\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\ATMBooking\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\NPOI.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\NPOI.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Web.dll.config
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\AjaxControlToolkit.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.MicroKernel.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Windsor.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\FredCK.FCKeditorV2.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\GemBox.Spreadsheet.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\itextsharp.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\MetaBuilders.WebControls.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\NPOI.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Services.Transaction.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\NHibernate.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.DynamicProxy2.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Iesi.Collections.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\Castle.DynamicProxy.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.Core.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\CMS.ServerControls.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\bin\GemBox.Spreadsheet.xml
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin._Default.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Users.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Register.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Error.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Global.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Install.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Admin.Login.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Profile.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Rss.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Web\obj\Debug\CMS.Web.pdb

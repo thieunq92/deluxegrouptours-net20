@@ -1,0 +1,38 @@
+2010-04-12 15:47:51,393 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Invoice'.
+Invalid column name 'CancelPay'.
+2010-04-12 15:47:51,675 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Invoice'.
+Invalid column name 'CancelPay'.
+2010-04-12 15:47:51,675 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingView [(null)] <(null)> - Error when Page_Load in BookingView
+NHibernate.ADOException: could not load an entity: [Portal.Modules.OrientalSails.Domain.Booking#28][SQL: SELECT booking0_.Id as Id61_0_, booking0_.Deleted as Deleted61_0_, booking0_.IsApproved as IsApproved61_0_, booking0_.CreatedBy as CreatedBy61_0_, booking0_.CreatedDate as CreatedD5_61_0_, booking0_.ModifiedBy as ModifiedBy61_0_, booking0_.ModifiedDate as Modified7_61_0_, booking0_.ConfirmedBy as Confirme8_61_0_, booking0_.PartnerId as PartnerId61_0_, booking0_.SaleId as SaleId61_0_, booking0_.StartDate as StartDate61_0_, booking0_.EndDate as EndDate61_0_, booking0_.CustomBookingId as CustomB13_61_0_, booking0_.Amended as Amended61_0_, booking0_.Status as Status61_0_, booking0_.AccountingStatus as Account16_61_0_, booking0_.AgencyCode as AgencyCode61_0_, booking0_.TripOption as TripOption61_0_, booking0_.Total as Total61_0_, booking0_.TransferCost as Transfe20_61_0_, booking0_.IsTransferred as IsTrans21_61_0_, booking0_.Paid as Paid61_0_, booking0_.Note as Note61_0_, booking0_.PickupAddress as PickupA24_61_0_, booking0_.DropoffAddress as Dropoff25_61_0_, booking0_.SpecialRequest as Special26_61_0_, booking0_.BookerId as BookerId61_0_, booking0_.CurrencyRate as Currenc28_61_0_, booking0_.PaidBase as PaidBase61_0_, booking0_.IsPaid as IsPaid61_0_, booking0_.IsPaymentNeeded as IsPayme31_61_0_, booking0_.IsCharter as IsCharter61_0_, booking0_.TransferAdult as Transfe33_61_0_, booking0_.TransferChildren as Transfe34_61_0_, booking0_.TransferBaby as Transfe35_61_0_, booking0_.Invoice as Invoice61_0_, booking0_.CancelPay as CancelPay61_0_, booking0_.TripId as TripId61_0_, booking0_.CruiseId as CruiseId61_0_, booking0_.AgencyId as AgencyId61_0_, booking0_.TransferTo as TransferTo61_0_, booking0_.LockedId as LockedId61_0_, booking0_.Id as formula1_0_, booking0_.CustomBookingId as formula2_0_ FROM os_Booking booking0_ WHERE booking0_.Id=?] ---> System.Data.SqlClient.SqlException: Invalid column name 'Invoice'.
+Invalid column name 'CancelPay'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.Impl.BatcherImpl.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.LoadEntity(ISessionImplementor session, Object id, IType identifierType, Object optionalObject, Type optionalEntityName, Object optionalIdentifier, IEntityPersister persister)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(ISessionImplementor session, Object id, Object optionalObject, Object optionalId)
+   at NHibernate.Loader.Entity.AbstractEntityLoader.Load(Object id, Object optionalObject, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Load(Object id, Object optionalObject, LockMode lockMode, ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.DoLoad(Type theClass, Object id, Object optionalObject, LockMode lockMode, Boolean checkDeleted)
+   at NHibernate.Impl.SessionImpl.ImmediateLoad(Type clazz, Object id)
+   at NHibernate.Proxy.LazyInitializer.Initialize()
+   at NHibernate.Proxy.LazyInitializer.GetImplementation()
+   at NHibernate.Proxy.CastleLazyInitializer.Intercept(IInvocation invocation, Object[] args)
+   at CProxyTypePortal_Modules_OrientalSails_DomainBookingDomain_NHibernate_ProxyINHibernateProxy1.get_Total()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.LoadInfo()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingView.Page_Load(Object sender, EventArgs e)

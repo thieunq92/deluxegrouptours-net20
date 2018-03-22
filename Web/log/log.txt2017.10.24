@@ -1,0 +1,5 @@
+2017-10-24 09:31:12,713 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-10-24 09:31:12,713 [7] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx
+2017-10-24 09:39:53,652 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2017-10-24 09:39:53,652 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot open database "deluxegrouptours_new" requested by the login. The login failed.
+Login failed for user 'sa'.

@@ -1,0 +1,4 @@
+2010-04-03 07:30:01,515 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2010-04-03 07:30:01,546 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+2010-04-03 07:31:04,937 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+2010-04-03 07:31:04,953 [4] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.

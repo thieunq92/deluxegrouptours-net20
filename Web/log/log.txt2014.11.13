@@ -1,0 +1,292 @@
+2014-11-13 10:29:31,817 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: ValidDate of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+NHibernate.QueryException: could not resolve property: ValidDate of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 153
+2014-11-13 10:30:36,238 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: ValidDate of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+NHibernate.QueryException: could not resolve property: ValidDate of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 153
+2014-11-13 11:10:32,061 [17] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 11:39:23,914 [14] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 11:43:14,043 [13] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 13:42:56,818 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 13:42:58,858 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:18:59,119 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:19:33,323 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:37:38,268 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:37:52,274 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:38:01,451 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:39:56,499 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:40:05,012 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:40:11,552 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:43:41,326 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:43:47,203 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:45:05,043 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 14:46:04,356 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 15:25:23,083 [11] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 15:40:04,987 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 15:40:13,752 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 15:40:24,849 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig [(null)] <(null)> - Error when buttonSubmit_Click in SailsPriceConfig
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Portal.Modules.OrientalSails.Web.Admin.SailsPriceConfig.buttonSubmit_Click(Object sender, EventArgs e)
+2014-11-13 16:33:51,214 [5] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+NHibernate.QueryException: could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 153
+2014-11-13 16:39:05,933 [11] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+NHibernate.QueryException: could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 153
+2014-11-13 16:39:24,985 [6] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+NHibernate.QueryException: could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 153
+2014-11-13 16:43:08,681 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+NHibernate.QueryException: could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 153
+2014-11-13 16:43:25,840 [10] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+NHibernate.QueryException: could not resolve property: SailsTrip of: Portal.Modules.OrientalSails.Domain.SailsPriceConfig
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ThrowPropertyException(String propertyName)
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Expression.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Expression.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, CriteriaImpl criteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, Type rootEntityName, IDictionary enabledFilters)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.SessionImpl.Find(CriteriaImpl criteria)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in C:\Users\thieu\Desktop\ATMBooking\Core\DataAccess\CommonDao.cs:line 153

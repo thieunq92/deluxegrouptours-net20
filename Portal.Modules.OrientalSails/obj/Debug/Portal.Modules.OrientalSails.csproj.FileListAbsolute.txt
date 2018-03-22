@@ -1,0 +1,325 @@
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\BIT.Core.Extensions.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\itextsharp.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\KIT.Common.Ultilities.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\log4net.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\NHibernate.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\NPOI.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\System.Web.Extensions.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Argotic.Core.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Argotic.Extensions.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\aspNetEmail.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\System.Web.Extensions.Design.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\Argotic.Common.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\BIT.Core.Extensions.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\KIT.Common.Ultilities.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.pdb
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\de\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\en\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\es\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\fr\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\it\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\sv\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\vi-VN\CMS.Modules.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\ResGen.read.1.tlog
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\ResGen.write.1.tlog
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+D:\Working\Source\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\BIT.Core.Extensions.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\KIT.Common.Ultilities.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\NPOI.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Argotic.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\aspNetEmail.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Argotic.Extensions.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\Argotic.Common.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\BIT.Core.Extensions.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\KIT.Common.Ultilities.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\de\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\en\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\es\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\fr\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\it\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\sv\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\vi-VN\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\ATMBooking\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\BIT.Core.Extensions.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\KIT.Common.Ultilities.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\NPOI.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Argotic.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\aspNetEmail.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Argotic.Extensions.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Argotic.Common.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\BIT.Core.Extensions.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\KIT.Common.Ultilities.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\de\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\en\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\es\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\fr\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\it\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\sv\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\vi-VN\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\de\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\en\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\es\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\fr\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\it\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\sv\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\vi-VN\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\NPOI.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\itextsharp.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\NHibernate.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\NPOI.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.Extensions.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.xml
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.pdb
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\de\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\en\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\es\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\fr\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\it\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\sv\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\vi-VN\CMS.Modules.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\deluxegrouptours\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb

@@ -1,0 +1,4 @@
+2014-11-07 08:53:31,859 [17] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/default.aspx?
+2014-11-07 08:53:31,886 [5] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/default.aspx?
+2014-11-07 15:41:22,496 [14] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - cannot open connection
+2014-11-07 15:41:22,687 [14] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.

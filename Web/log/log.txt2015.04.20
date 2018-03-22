@@ -1,0 +1,12 @@
+2015-04-20 09:44:46,839 [6] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarRightHover.gif not found, referer: http://localhost:1986/
+2015-04-20 09:44:46,839 [13] ERROR CMS.Web.HttpHandlers.ImageHandler [(null)] <(null)> - Image http://localhost:1986/images/SpryMenuBarDownHover.gif not found, referer: http://localhost:1986/
+2015-04-20 15:01:51,538 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'deluxegrouptours_new.deluxe_new.os_Activity'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2015-04-20 15:10:23,671 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'deluxegrouptours_new.dbo.os_Activity'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2015-04-20 15:14:53,869 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'deluxegrouptours_new.dbo.os_Activity'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2015-04-20 15:15:26,821 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'deluxegrouptours_new.dbo.os_Activity'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2015-04-20 15:18:46,685 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'deluxegrouptours_new.dbo.os_Activity'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
